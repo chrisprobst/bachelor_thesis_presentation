@@ -1,0 +1,95 @@
+%!TEX root = master.tex
+
+\section{Einleitung}
+
+\subsection{Problemstellung}
+\subsection{Motivation}
+\subsection{Zielsetzung}
+
+\begin{frame}
+  \frametitle{Problemstellung}
+	
+  \setbeamertemplate{itemize items}[circle]
+  \begin{itemize}
+	  \item Möchte man Daten von einem einzelnen Computer aus zu beliebig vielen anderen Computern transferieren, so wird häufig ein Client\,/\,Server Netzwerk genutzt. 
+	  \item Diese Methode ist einfach, zuverlässig und lang erprobt. Jedoch gibt es Skalierungsprobleme:
+
+ 	  \setbeamertemplate{itemize items}[default]
+	  \begin{itemize}
+	    \item Jeder Client erhöht die Last des Servers
+	    \item Mehr Clienten benötigen mehr Server und mehr Bandbreite
+	    \item Uploadbandbreite der Clienten bleibt genutzt
+	 
+	  \end{itemize}
+  \end{itemize}
+\end{frame}
+
+
+\begin{frame}
+  \frametitle{Motivation}
+
+  \setbeamertemplate{itemize items}[circle]
+  \begin{itemize}
+	  \item Um ohne ein skalierbares Serversystem Daten dennoch schnell zu verbreiten, kann ein Peer-to-Peer Netzwerk benutzt werden, wo jeder Computer einen Peer darstellt und bei der Datenverbreitung hilft. Einige Anwendungsfälle sind:
+
+	  \setbeamertemplate{itemize items}[default]
+	  \begin{itemize}
+	    \item File Sharing (BitTorrent)
+	    \item Audio und Video Streaming (Skype)    
+	    \item DHTs (Kademlia, Chord)
+	  \end{itemize}
+
+	  \setbeamertemplate{itemize items}[circle]
+	  \item Geräte mit einer geringen Uploadbandbreite können so dennoch schnell Daten verbreiten, wie z.B. ein Live-Videostream von einem Smartphone aus.
+  \end{itemize}
+\end{frame}
+
+
+\begin{frame}
+  \frametitle{Zielsetzung}
+
+  \setbeamertemplate{itemize items}[circle]
+
+      Implementierung einer Peer-to-Peer Anwendung, die Daten ausgehend von einem Peer, auch genannt Super-Peer, an beliebig viele Peers versendet. Dabei sollen folgende Bedingungen eingehalten werden:
+
+	  \begin{itemize}
+	    \item Möglichst hohe Auslastung der Uploadbandbreite der einzelnen Peers.
+	    \item Jeder Peer soll die Daten möglichst zur gleichen Zeit fertigstellen.
+	    \item Gesamtdauer unabhängig von der Anzahl der Peers.
+	    \item Gesamtdauer kleiner als $2 * T_0$.
+	  \end{itemize}
+
+\end{frame}
+
+
+
+% \begin{frame}
+%   \frametitle{Motivation}
+
+%   Sehr praktisch ist die Verwendung von Blöcken:
+%   \begin{block}{Normaler Blocktitel}
+%     Blöcke sind zur Hervorhebung gedacht. In normalen Blöcken können
+%     wichtige Erkenntnisse (Zwischenergebnisse) stehen, die nicht
+%     unbemerkt bleiben dürfen.
+%   \end{block}
+
+%   \begin{exampleblock}{Beispiel-Blocktitel}
+%     Diese Blöcke sind für Beispiele o.ä. gedacht.
+%   \end{exampleblock}
+
+%   \begin{alertblock}{Alarm-Blocktitel}
+%     Diese Blöcke beinhalten für gewöhnlich Problembeschreibungen.
+%   \end{alertblock}
+% \end{frame}
+
+% \begin{frame}
+%   \frametitle{Weitere Hilfen}
+
+%   Es gibt viele Quellen, die für \LaTeX Beamer herangezogen werden können. Besonders gut sind:
+%   \begin{itemize}
+%     \item Der Beamer User Guide von Till Tantau:\\\texttt{http://www.math.binghamton.edu/erik/beameruserguide.pdf}
+%     \item Ein sehr gutes Beamer Tutorial von Ki-Joo Kim:\\\texttt{http://saikat.guha.cc/ref/beamer\_guide.pdf}
+%     \item Der jeweilige Betreuer der Abschlussarbeit :-)
+%   \end{itemize}
+
+% \end{frame}
