@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.10.19)  26 NOV 2014 11:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.10.19)  26 NOV 2014 11:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3045,7 +3045,7 @@ texmf-dist/fonts/type1/public/amsfonts/symbols/msam5.pfb></usr/local/texlive/20
 /2014/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/tex
 live/2014/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/20
 14/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on master.pdf (68 pages, 1367947 bytes).
+Output written on master.pdf (68 pages, 1367946 bytes).
 PDF statistics:
  2324 PDF objects out of 2487 (max. 8388607)
  2114 compressed objects within 22 object streams
