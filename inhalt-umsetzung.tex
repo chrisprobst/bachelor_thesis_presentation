@@ -6,9 +6,9 @@
 \subsection{Implementierung}
 
 \begin{frame}
-  \frametitle{Theorie}
+  \frametitle{Umsetzung - Theorie}
 
-  \setbeamertemplate{itemize items}[circle]
+  Um die Gesamtdauer gering zu halten, muss jeder Peer bei der Verteilung des Datensatzen mithelfen. Das im Folgenden erklärte Verfahren nennt sich Chunked-Swarm:
   \begin{itemize}  
     \item Die Daten werden vor dem Transfer in kleine Teile (Chunks) geteilt. Es muss mindestens so viele Chunks geben, wie es Peers im Netzwerk gibt.
 
@@ -25,7 +25,7 @@
 
 
 \begin{frame}
-  \frametitle{Theorie}
+  \frametitle{Umsetzung - Theorie}
   Wenn es genauso viele Chunks wie Peers gibt, kann man den Transfer in zwei Stufen betrachten. Peer 1 ist in diesem Fall der Super-Peer.
   \begin{itemize}
     \item Links: Alle Peers bekommen einen disjunkten Chunk vom Super-Peer. 
@@ -41,10 +41,10 @@
 
 
 \begin{frame}
-  \frametitle{Theorie}
+  \frametitle{Umsetzung - Theorie}
   Das folgende Bild zeigt den zeitlichen Ablauf:
   \begin{itemize}
-    \item In den ersten $T_0$ Sekunden, schickt der Super-Peer einen disjunkten Chunk an jeden Peer. Jeder Chunk ist daher $\frac{Datengr"o"se}{Anzahl}$ groß.
+    \item In den ersten $T_0$ Sekunden, schickt der Super-Peer einen disjunkten Chunk an jeden Peer. Jeder Chunk ist daher $\frac{Datengr"o"se}{3}$ groß.
     \item Anschließend schickt jeder Peer seinen Chunk an die anderen beiden Peers, was $\frac{2}{3} * T_0$ Sekunden dauert.
     \item Nach $T_0 + \frac{2}{3} * T_0$ Sekunden besitzt also jeder Peer die Daten.
   \end{itemize}
@@ -57,7 +57,7 @@
 
 
 \begin{frame}
-  \frametitle{Theorie}
+  \frametitle{Umsetzung - Theorie}
 
   \setbeamertemplate{itemize items}[circle]
   \begin{itemize}  
@@ -74,7 +74,7 @@
 
 
 \begin{frame}
-  \frametitle{Implementierung}
+  \frametitle{Umsetzung - Implementierung}
 
   \setbeamertemplate{itemize items}[circle]
   \begin{itemize}  
@@ -87,12 +87,13 @@
 \end{frame}
 
 \begin{frame}
-  \frametitle{Implementierung}
+  \frametitle{Umsetzung - Implementierung}
 
   \setbeamertemplate{itemize items}[circle]
   \begin{itemize}  
     \item Peer-Loss Detection: Super-Peer verschickt Chunks von Peers, die das Netzwerk verlassen haben, erneut.
     \item Jeder Peer versucht von möglichst vielen Peers gleichzeitig Chunks zu beziehen. Dies ist wichtig, da ein Pull-Based Ansatz verwendet wird.
+    \item Die Bandbreite der Peers kann beliebig gedrosselt werden. 
     \item Implementiert in Java mit Netty5.
   \end{itemize} 
 
