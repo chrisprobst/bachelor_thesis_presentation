@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.10.19)  26 NOV 2014 11:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.10.19)  27 NOV 2014 21:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**master.tex -recorder
+**master.tex
 (./master.tex
 LaTeX2e <2014/05/01>
 Babel <3.9k> and hyphenation patterns for 78 languages loaded.
@@ -707,12 +707,17 @@ Package: beamerinnerthemedefault 2013/10/15  (rcs-revision 65cb471f9634)
 emedefault.sty
 Package: beamerouterthemedefault 2012/12/19  (rcs-revision 1686da3db3c9)
 ))) (./beamerthemeHHUD.sty
-
-LaTeX Warning: You have requested package `beamerthemeHHUD',
-               but the package provides `beamercolorthemeHHUD'.
-
+Package: beamerthemeHHUD 2011/10/19 v1.0 beamer 'HHUD' theme
+ (./beamerouterthemeHHUD.sty
+Package: beamerouterthemeHHUD 2011/10/19 v1.0 beamer 'HHUD' outer theme
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/beamer/themes/inner/beamerinnerth
+emecircles.sty
+Package: beamerinnerthemecircles 2010/06/17  (rcs-revision d02a7cf4d8ae)
+) (./beamercolorthemeHHUD.sty
 Package: beamercolorthemeHHUD 2011/10/19 v1.0 beamer 'HHUD' color theme
-) (/usr/local/texlive/2014/texmf-dist/tex/generic/babel/babel.sty
+))
+(/usr/local/texlive/2014/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2014/03/24 3.9k The Babel package
 
 (/usr/local/texlive/2014/texmf-dist/tex/generic/babel-german/ngerman.ldf
@@ -736,220 +741,20 @@ Package: inputenc 2014/04/30 v1.2b Input encoding file
 \inpenc@prehook=\toks43
 \inpenc@posthook=\toks44
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/base/utf8.def
-File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
-Now handling font encoding OML ...
-... no UTF-8 mapping file for font encoding OML
-Now handling font encoding T1 ...
-... processing UTF-8 mapping file for font encoding T1
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/base/t1enc.dfu
-File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
-   defining Unicode char U+00A1 (decimal 161)
-   defining Unicode char U+00A3 (decimal 163)
-   defining Unicode char U+00AB (decimal 171)
-   defining Unicode char U+00BB (decimal 187)
-   defining Unicode char U+00BF (decimal 191)
-   defining Unicode char U+00C0 (decimal 192)
-   defining Unicode char U+00C1 (decimal 193)
-   defining Unicode char U+00C2 (decimal 194)
-   defining Unicode char U+00C3 (decimal 195)
-   defining Unicode char U+00C4 (decimal 196)
-   defining Unicode char U+00C5 (decimal 197)
-   defining Unicode char U+00C6 (decimal 198)
-   defining Unicode char U+00C7 (decimal 199)
-   defining Unicode char U+00C8 (decimal 200)
-   defining Unicode char U+00C9 (decimal 201)
-   defining Unicode char U+00CA (decimal 202)
-   defining Unicode char U+00CB (decimal 203)
-   defining Unicode char U+00CC (decimal 204)
-   defining Unicode char U+00CD (decimal 205)
-   defining Unicode char U+00CE (decimal 206)
-   defining Unicode char U+00CF (decimal 207)
-   defining Unicode char U+00D0 (decimal 208)
-   defining Unicode char U+00D1 (decimal 209)
-   defining Unicode char U+00D2 (decimal 210)
-   defining Unicode char U+00D3 (decimal 211)
-   defining Unicode char U+00D4 (decimal 212)
-   defining Unicode char U+00D5 (decimal 213)
-   defining Unicode char U+00D6 (decimal 214)
-   defining Unicode char U+00D8 (decimal 216)
-   defining Unicode char U+00D9 (decimal 217)
-   defining Unicode char U+00DA (decimal 218)
-   defining Unicode char U+00DB (decimal 219)
-   defining Unicode char U+00DC (decimal 220)
-   defining Unicode char U+00DD (decimal 221)
-   defining Unicode char U+00DE (decimal 222)
-   defining Unicode char U+00DF (decimal 223)
-   defining Unicode char U+00E0 (decimal 224)
-   defining Unicode char U+00E1 (decimal 225)
-   defining Unicode char U+00E2 (decimal 226)
-   defining Unicode char U+00E3 (decimal 227)
-   defining Unicode char U+00E4 (decimal 228)
-   defining Unicode char U+00E5 (decimal 229)
-   defining Unicode char U+00E6 (decimal 230)
-   defining Unicode char U+00E7 (decimal 231)
-   defining Unicode char U+00E8 (decimal 232)
-   defining Unicode char U+00E9 (decimal 233)
-   defining Unicode char U+00EA (decimal 234)
-   defining Unicode char U+00EB (decimal 235)
-   defining Unicode char U+00EC (decimal 236)
-   defining Unicode char U+00ED (decimal 237)
-   defining Unicode char U+00EE (decimal 238)
-   defining Unicode char U+00EF (decimal 239)
-   defining Unicode char U+00F0 (decimal 240)
-   defining Unicode char U+00F1 (decimal 241)
-   defining Unicode char U+00F2 (decimal 242)
-   defining Unicode char U+00F3 (decimal 243)
-   defining Unicode char U+00F4 (decimal 244)
-   defining Unicode char U+00F5 (decimal 245)
-   defining Unicode char U+00F6 (decimal 246)
-   defining Unicode char U+00F8 (decimal 248)
-   defining Unicode char U+00F9 (decimal 249)
-   defining Unicode char U+00FA (decimal 250)
-   defining Unicode char U+00FB (decimal 251)
-   defining Unicode char U+00FC (decimal 252)
-   defining Unicode char U+00FD (decimal 253)
-   defining Unicode char U+00FE (decimal 254)
-   defining Unicode char U+00FF (decimal 255)
-   defining Unicode char U+0102 (decimal 258)
-   defining Unicode char U+0103 (decimal 259)
-   defining Unicode char U+0104 (decimal 260)
-   defining Unicode char U+0105 (decimal 261)
-   defining Unicode char U+0106 (decimal 262)
-   defining Unicode char U+0107 (decimal 263)
-   defining Unicode char U+010C (decimal 268)
-   defining Unicode char U+010D (decimal 269)
-   defining Unicode char U+010E (decimal 270)
-   defining Unicode char U+010F (decimal 271)
-   defining Unicode char U+0110 (decimal 272)
-   defining Unicode char U+0111 (decimal 273)
-   defining Unicode char U+0118 (decimal 280)
-   defining Unicode char U+0119 (decimal 281)
-   defining Unicode char U+011A (decimal 282)
-   defining Unicode char U+011B (decimal 283)
-   defining Unicode char U+011E (decimal 286)
-   defining Unicode char U+011F (decimal 287)
-   defining Unicode char U+0130 (decimal 304)
-   defining Unicode char U+0131 (decimal 305)
-   defining Unicode char U+0132 (decimal 306)
-   defining Unicode char U+0133 (decimal 307)
-   defining Unicode char U+0139 (decimal 313)
-   defining Unicode char U+013A (decimal 314)
-   defining Unicode char U+013D (decimal 317)
-   defining Unicode char U+013E (decimal 318)
-   defining Unicode char U+0141 (decimal 321)
-   defining Unicode char U+0142 (decimal 322)
-   defining Unicode char U+0143 (decimal 323)
-   defining Unicode char U+0144 (decimal 324)
-   defining Unicode char U+0147 (decimal 327)
-   defining Unicode char U+0148 (decimal 328)
-   defining Unicode char U+014A (decimal 330)
-   defining Unicode char U+014B (decimal 331)
-   defining Unicode char U+0150 (decimal 336)
-   defining Unicode char U+0151 (decimal 337)
-   defining Unicode char U+0152 (decimal 338)
-   defining Unicode char U+0153 (decimal 339)
-   defining Unicode char U+0154 (decimal 340)
-   defining Unicode char U+0155 (decimal 341)
-   defining Unicode char U+0158 (decimal 344)
-   defining Unicode char U+0159 (decimal 345)
-   defining Unicode char U+015A (decimal 346)
-   defining Unicode char U+015B (decimal 347)
-   defining Unicode char U+015E (decimal 350)
-   defining Unicode char U+015F (decimal 351)
-   defining Unicode char U+0160 (decimal 352)
-   defining Unicode char U+0161 (decimal 353)
-   defining Unicode char U+0162 (decimal 354)
-   defining Unicode char U+0163 (decimal 355)
-   defining Unicode char U+0164 (decimal 356)
-   defining Unicode char U+0165 (decimal 357)
-   defining Unicode char U+016E (decimal 366)
-   defining Unicode char U+016F (decimal 367)
-   defining Unicode char U+0170 (decimal 368)
-   defining Unicode char U+0171 (decimal 369)
-   defining Unicode char U+0178 (decimal 376)
-   defining Unicode char U+0179 (decimal 377)
-   defining Unicode char U+017A (decimal 378)
-   defining Unicode char U+017B (decimal 379)
-   defining Unicode char U+017C (decimal 380)
-   defining Unicode char U+017D (decimal 381)
-   defining Unicode char U+017E (decimal 382)
-   defining Unicode char U+200C (decimal 8204)
-   defining Unicode char U+2013 (decimal 8211)
-   defining Unicode char U+2014 (decimal 8212)
-   defining Unicode char U+2018 (decimal 8216)
-   defining Unicode char U+2019 (decimal 8217)
-   defining Unicode char U+201A (decimal 8218)
-   defining Unicode char U+201C (decimal 8220)
-   defining Unicode char U+201D (decimal 8221)
-   defining Unicode char U+201E (decimal 8222)
-   defining Unicode char U+2030 (decimal 8240)
-   defining Unicode char U+2031 (decimal 8241)
-   defining Unicode char U+2039 (decimal 8249)
-   defining Unicode char U+203A (decimal 8250)
-   defining Unicode char U+2423 (decimal 9251)
-)
-Now handling font encoding OT1 ...
-... processing UTF-8 mapping file for font encoding OT1
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/base/ot1enc.dfu
-File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
-   defining Unicode char U+00A1 (decimal 161)
-   defining Unicode char U+00A3 (decimal 163)
-   defining Unicode char U+00B8 (decimal 184)
-   defining Unicode char U+00BF (decimal 191)
-   defining Unicode char U+00C5 (decimal 197)
-   defining Unicode char U+00C6 (decimal 198)
-   defining Unicode char U+00D8 (decimal 216)
-   defining Unicode char U+00DF (decimal 223)
-   defining Unicode char U+00E6 (decimal 230)
-   defining Unicode char U+00EC (decimal 236)
-   defining Unicode char U+00ED (decimal 237)
-   defining Unicode char U+00EE (decimal 238)
-   defining Unicode char U+00EF (decimal 239)
-   defining Unicode char U+00F8 (decimal 248)
-   defining Unicode char U+0131 (decimal 305)
-   defining Unicode char U+0141 (decimal 321)
-   defining Unicode char U+0142 (decimal 322)
-   defining Unicode char U+0152 (decimal 338)
-   defining Unicode char U+0153 (decimal 339)
-   defining Unicode char U+2013 (decimal 8211)
-   defining Unicode char U+2014 (decimal 8212)
-   defining Unicode char U+2018 (decimal 8216)
-   defining Unicode char U+2019 (decimal 8217)
-   defining Unicode char U+201C (decimal 8220)
-   defining Unicode char U+201D (decimal 8221)
-)
-Now handling font encoding OMS ...
-... processing UTF-8 mapping file for font encoding OMS
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/base/omsenc.dfu
-File: omsenc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
-   defining Unicode char U+00A7 (decimal 167)
-   defining Unicode char U+00B6 (decimal 182)
-   defining Unicode char U+00B7 (decimal 183)
-   defining Unicode char U+2020 (decimal 8224)
-   defining Unicode char U+2021 (decimal 8225)
-   defining Unicode char U+2022 (decimal 8226)
-)
-Now handling font encoding OMX ...
-... no UTF-8 mapping file for font encoding OMX
-Now handling font encoding U ...
-... no UTF-8 mapping file for font encoding U
-Now handling font encoding PD1 ...
-... no UTF-8 mapping file for font encoding PD1
-   defining Unicode char U+00A9 (decimal 169)
-   defining Unicode char U+00AA (decimal 170)
-   defining Unicode char U+00AE (decimal 174)
-   defining Unicode char U+00BA (decimal 186)
-   defining Unicode char U+02C6 (decimal 710)
-   defining Unicode char U+02DC (decimal 732)
-   defining Unicode char U+200C (decimal 8204)
-   defining Unicode char U+2026 (decimal 8230)
-   defining Unicode char U+2122 (decimal 8482)
-   defining Unicode char U+2423 (decimal 9251)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/ucs/utf8x.def
+File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
 ))
+(/usr/local/texlive/2014/texmf-dist/tex/latex/ucs/ucs.sty
+Package: ucs 2013/05/11 v2.2 UCS: Unicode input support
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/ucs/data/uni-global.def
+File: uni-global.def 2013/05/13 UCS: Unicode global data
+)
+\uc@secondtry=\count153
+\uc@combtoks=\toks45
+\uc@combtoksb=\toks46
+\uc@temptokena=\toks47
+)
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/times.sty
 Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
 )
@@ -968,10 +773,10 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 \subfigbottomskip=\skip59
 \subfigcapmargin=\dimen190
 \subfiglabelskip=\skip60
-\c@subfigure=\count153
-\c@lofdepth=\count154
-\c@subtable=\count155
-\c@lotdepth=\count156
+\c@subfigure=\count154
+\c@lofdepth=\count155
+\c@subtable=\count156
+\c@lotdepth=\count157
 
 ****************************************
 * Local config file subfigure.cfg used *
@@ -980,19 +785,26 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 \subfig@top=\skip61
 \subfig@bottom=\skip62
 )
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/grffile.sty
+Package: grffile 2012/04/05 v1.16 Extended file name support for graphics (HO)
+Package grffile Info: Option `multidot' is set to `true'.
+Package grffile Info: Option `extendedchars' is set to `false'.
+Package grffile Info: Option `space' is set to `true'.
+Package grffile Info: \Gin@ii of package `graphicx' fixed on input line 486.
+)
 (/usr/local/texlive/2014/texmf-dist/tex/latex/beamer/multimedia/xmpmulti.sty
-\@mpm@count=\count157
+\@mpm@count=\count158
 )
 (/usr/local/texlive/2014/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2014/04/23 v1.8e multicolumn formatting (FMi)
-\c@tracingmulticols=\count158
+\c@tracingmulticols=\count159
 \mult@box=\box53
 \multicol@leftmargin=\dimen191
-\c@unbalance=\count159
-\c@collectmore=\count160
-\doublecol@number=\count161
-\multicoltolerance=\count162
-\multicolpretolerance=\count163
+\c@unbalance=\count160
+\c@collectmore=\count161
+\doublecol@number=\count162
+\multicoltolerance=\count163
+\multicolpretolerance=\count164
 \full@width=\dimen192
 \page@free=\dimen193
 \premulticols=\dimen194
@@ -1023,40 +835,33 @@ Package: multicol 2014/04/23 v1.8e multicolumn formatting (FMi)
 \@tempa=\box74
 \@tempa=\box75
 \@tempa=\box76
-\c@columnbadness=\count164
-\c@finalcolumnbadness=\count165
+\c@columnbadness=\count165
+\c@finalcolumnbadness=\count166
 \last@try=\dimen197
 \multicolovershoot=\dimen198
 \multicolundershoot=\dimen199
 \mult@nat@firstbox=\box77
 \colbreak@box=\box78
-\mc@col@check@num=\count166
-)
-(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/grffile.sty
-Package: grffile 2012/04/05 v1.16 Extended file name support for graphics (HO)
-Package grffile Info: Option `multidot' is set to `true'.
-Package grffile Info: Option `extendedchars' is set to `false'.
-Package grffile Info: Option `space' is set to `true'.
-Package grffile Info: \Gin@ii of package `graphicx' fixed on input line 486.
+\mc@col@check@num=\count167
 )
 (./appendixnumberbeamer.sty) (./master.aux)
 \openout1 = `master.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Try loading font information for T1+phv on input line 55.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 48.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
@@ -1097,17 +902,17 @@ File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 
 (/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count167
+\scratchcounter=\count168
 \scratchdimen=\dimen200
 \scratchbox=\box79
-\nofMPsegments=\count168
-\nofMParguments=\count169
-\everyMPshowfont=\toks45
-\MPscratchCnt=\count170
+\nofMPsegments=\count169
+\nofMParguments=\count170
+\everyMPshowfont=\toks48
+\MPscratchCnt=\count171
 \MPscratchDim=\dimen201
-\MPnumerator=\count171
-\makeMPintoPDFobject=\count172
-\everyMPtoPDFconversion=\toks46
+\MPnumerator=\count172
+\makeMPintoPDFobject=\count173
+\everyMPtoPDFconversion=\toks49
 ) (/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -1125,7 +930,7 @@ e
 ))
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box80
-Package hyperref Info: Link coloring OFF on input line 55.
+Package hyperref Info: Link coloring OFF on input line 48.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1133,58 +938,58 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count173
+\c@section@level=\count174
 )
-LaTeX Info: Redefining \ref on input line 55.
-LaTeX Info: Redefining \pageref on input line 55.
-LaTeX Info: Redefining \nameref on input line 55.
+LaTeX Info: Redefining \ref on input line 48.
+LaTeX Info: Redefining \pageref on input line 48.
+LaTeX Info: Redefining \nameref on input line 48.
 
 (./master.out) (./master.out)
 \@outlinefile=\write5
 \openout5 = `master.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 55.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 48.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 55.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 48.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> T1/ptm/m/n on input line 55.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 55.
+(Font)                  OT1/cmss/m/n --> T1/ptm/m/n on input line 48.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 48.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> T1/phv/bx/n on input line 55.
+(Font)                  OT1/cmr/bx/n --> T1/phv/bx/n on input line 48.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> T1/phv/bx/n on input line 55.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 55.
+(Font)                  OT1/cmr/bx/n --> T1/phv/bx/n on input line 48.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 48.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> T1/phv/m/n on input line 55.
+(Font)                  OT1/cmss/m/n --> T1/phv/m/n on input line 48.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> T1/phv/m/n on input line 55.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 55.
+(Font)                  OT1/cmss/bx/n --> T1/phv/m/n on input line 48.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 48.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> T1/phv/m/it on input line 55.
+(Font)                  OT1/cmr/m/it --> T1/phv/m/it on input line 48.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> T1/phv/m/it on input line 55.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 55.
+(Font)                  OT1/cmr/bx/it --> T1/phv/m/it on input line 48.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 48.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> T1/pcr/m/n on input line 55.
+(Font)                  OT1/cmtt/m/n --> T1/pcr/m/n on input line 48.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> T1/pcr/m/n on input line 55.
+(Font)                  OT1/cmtt/m/n --> T1/pcr/m/n on input line 48.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  T1/phv/m/n --> T1/phv/bx/n on input line 55.
+(Font)                  T1/phv/m/n --> T1/phv/bx/n on input line 48.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T1/phv/m/it --> T1/phv/bx/it on input line 55.
+(Font)                  T1/phv/m/it --> T1/phv/bx/it on input line 48.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/bx/n --> T1/ptm/bx/n on input line 55.
+(Font)                  OT1/cmss/bx/n --> T1/ptm/bx/n on input line 48.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T1/phv/bx/n --> T1/phv/bx/n on input line 55.
+(Font)                  T1/phv/bx/n --> T1/phv/bx/n on input line 48.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T1/phv/m/n --> T1/phv/bx/n on input line 55.
+(Font)                  T1/phv/m/n --> T1/phv/bx/n on input line 48.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T1/phv/m/it --> T1/phv/bx/it on input line 55.
+(Font)                  T1/phv/m/it --> T1/phv/bx/it on input line 48.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T1/pcr/m/n --> T1/pcr/bx/n on input line 55.
+(Font)                  T1/pcr/m/n --> T1/pcr/bx/n on input line 48.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/beamer/translator/dicts/translato
 r-basic-dictionary/translator-basic-dictionary-English.dict
@@ -1210,11 +1015,21 @@ Dictionary: translator-numbers-dictionary, Language: English
 r-theorem-dictionary/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \includegraphics on input line 55.
- (./master.nav) <fig/background.png, id=65, 1644.544pt x 1231.802pt>
+LaTeX Info: Redefining \includegraphics on input line 48.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/ucs/ucsencs.def
+File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
+) (./master.nav)
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <5> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 48.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/ucs/data/uni-0.def
+File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
+)
+<fig/background.png, id=36, 1644.544pt x 1231.802pt>
 File: fig/background.png Graphic file (type png)
  <use fig/background.png>
-Package pdftex.def Info: fig/background.png used on input line 61.
+Package pdftex.def Info: fig/background.png used on input line 54.
 (pdftex.def)             Requested size: 364.19536pt x 272.78287pt.
 
 [1
@@ -1227,68 +1042,77 @@ t cause out of memory (use non-interlaced PNG to fix this)
 >] (./master.toc)
 File: fig/background.png Graphic file (type png)
  <use fig/background.png>
-Package pdftex.def Info: fig/background.png used on input line 68.
+Package pdftex.def Info: fig/background.png used on input line 61.
 (pdftex.def)             Requested size: 364.19536pt x 272.78287pt.
  [2
 
-] (./inhalt-einleitung.tex
-LaTeX Font Info:    Try loading font information for OMS+phv on input line 25.
+] (./einleitung.tex (./master.toc)
+File: fig/background.png Graphic file (type png)
+<use fig/background.png>
+Package pdftex.def Info: fig/background.png used on input line 1.
+(pdftex.def)             Requested size: 364.19536pt x 272.78287pt.
+ [3
+
+]
+LaTeX Font Info:    Try loading font information for OMS+phv on input line 24.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/omsphv.fd
 File: omsphv.fd 
 )
 LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <8> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 25.
-LaTeX Font Info:    Try loading font information for U+msa on input line 25.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 24.
+LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <7> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 24.
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 25.
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <5> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 25.
-
-<fig/background_small.png, id=141, 1644.544pt x 1231.802pt>
+<fig/background_small.png, id=64, 1644.544pt x 1231.802pt>
 File: fig/background_small.png Graphic file (type png)
 
 <use fig/background_small.png>
-Package pdftex.def Info: fig/background_small.png used on input line 25.
+Package pdftex.def Info: fig/background_small.png used on input line 24.
 (pdftex.def)             Requested size: 364.19536pt x 272.78287pt.
- [3
+ [4
 
  <./fig/background_small.png
 
 pdfTeX warning: pdflatex (file ./fig/background_small.png): large interlaced PN
 G might cause out of memory (use non-interlaced PNG to fix this)
 >]
-File: fig/background_small.png Graphic file (type png)
- <use fig/background_small.png>
-Package pdftex.def Info: fig/background_small.png used on input line 45.
-(pdftex.def)             Requested size: 364.19536pt x 272.78287pt.
- [4
+LaTeX Font Info:    Try loading font information for U+msa on input line 37.
+ (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 37.
 
-]
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <6> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 60.
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <9> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 60.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 37.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <6> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 37.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <5> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 37.
 File: fig/background_small.png Graphic file (type png)
- <use fig/background_small.png>
-Package pdftex.def Info: fig/background_small.png used on input line 60.
+
+<use fig/background_small.png>
+Package pdftex.def Info: fig/background_small.png used on input line 37.
 (pdftex.def)             Requested size: 364.19536pt x 272.78287pt.
  [5
 
-])
-(./inhalt-umsetzung.tex
-File: fig/background_small.png Graphic file (type png)
- <use fig/background_small.png>
-Package pdftex.def Info: fig/background_small.png used on input line 22.
+]) (./umsetzung.tex (./master.toc)
+File: fig/background.png Graphic file (type png)
+
+<use fig/background.png>
+Package pdftex.def Info: fig/background.png used on input line 1.
 (pdftex.def)             Requested size: 364.19536pt x 272.78287pt.
  [6
+
+]
+File: fig/background_small.png Graphic file (type png)
+ <use fig/background_small.png>
+Package pdftex.def Info: fig/background_small.png used on input line 14.
+(pdftex.def)             Requested size: 364.19536pt x 272.78287pt.
+ [7
 
 ]
 Package epstopdf Info: Source file: <fig/chunkedswarmmodel1.eps>
@@ -1300,14 +1124,14 @@ f>
 (epstopdf)                    size: 11633 bytes
 (epstopdf)             Command: <repstopdf --outfile=fig/chunkedswarmmodel1-eps
 -converted-to.pdf fig/chunkedswarmmodel1.eps>
-(epstopdf)             \includegraphics on input line 40.
+(epstopdf)             \includegraphics on input line 31.
 Package epstopdf Info: Output file is already uptodate.
 
-<fig/chunkedswarmmodel1-eps-converted-to.pdf, id=258, 142.5325pt x 115.43124pt>
+<fig/chunkedswarmmodel1-eps-converted-to.pdf, id=103, 142.5325pt x 115.43124pt>
 File: fig/chunkedswarmmodel1-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/chunkedswarmmodel1-eps-converted-to.pdf>
 Package pdftex.def Info: fig/chunkedswarmmodel1-eps-converted-to.pdf used on in
-put line 40.
+put line 31.
 (pdftex.def)             Requested size: 122.91406pt x 99.54193pt.
 Package epstopdf Info: Source file: <fig/chunkedswarmmodel2.eps>
 (epstopdf)                    date: 2014-11-20 14:59:17
@@ -1318,21 +1142,21 @@ f>
 (epstopdf)                    size: 14508 bytes
 (epstopdf)             Command: <repstopdf --outfile=fig/chunkedswarmmodel2-eps
 -converted-to.pdf fig/chunkedswarmmodel2.eps>
-(epstopdf)             \includegraphics on input line 40.
+(epstopdf)             \includegraphics on input line 31.
 Package epstopdf Info: Output file is already uptodate.
 
-<fig/chunkedswarmmodel2-eps-converted-to.pdf, id=259, 142.5325pt x 115.43124pt>
+<fig/chunkedswarmmodel2-eps-converted-to.pdf, id=104, 142.5325pt x 115.43124pt>
 File: fig/chunkedswarmmodel2-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/chunkedswarmmodel2-eps-converted-to.pdf>
 Package pdftex.def Info: fig/chunkedswarmmodel2-eps-converted-to.pdf used on in
-put line 40.
+put line 31.
 (pdftex.def)             Requested size: 122.91406pt x 99.54193pt.
 File: fig/background_small.png Graphic file (type png)
 
 <use fig/background_small.png>
-Package pdftex.def Info: fig/background_small.png used on input line 40.
+Package pdftex.def Info: fig/background_small.png used on input line 31.
 (pdftex.def)             Requested size: 364.19536pt x 272.78287pt.
- [7
+ [8
 
  <./fig/chunkedswarmmodel1-eps-converted-to.pdf> <./fig/chunkedswarmmodel2-eps-
 converted-to.pdf>]
@@ -1345,67 +1169,74 @@ pdf>
 (epstopdf)                    size: 24379 bytes
 (epstopdf)             Command: <repstopdf --outfile=fig/chunkedswarmformula1-e
 ps-converted-to.pdf fig/chunkedswarmformula1.eps>
-(epstopdf)             \includegraphics on input line 55.
+(epstopdf)             \includegraphics on input line 47.
 Package epstopdf Info: Output file is already uptodate.
 
-<fig/chunkedswarmformula1-eps-converted-to.pdf, id=292, 475.7775pt x 136.51pt>
+<fig/chunkedswarmformula1-eps-converted-to.pdf, id=117, 475.7775pt x 136.51pt>
 File: fig/chunkedswarmformula1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig/chunkedswarmformula1-eps-converted-to.pdf>
 Package pdftex.def Info: fig/chunkedswarmformula1-eps-converted-to.pdf used on 
-input line 55.
+input line 47.
 (pdftex.def)             Requested size: 307.28987pt x 88.1722pt.
 File: fig/background_small.png Graphic file (type png)
 
 <use fig/background_small.png>
-Package pdftex.def Info: fig/background_small.png used on input line 55.
+Package pdftex.def Info: fig/background_small.png used on input line 47.
 (pdftex.def)             Requested size: 364.19536pt x 272.78287pt.
- [8
+ [9
 
  <./fig/chunkedswarmformula1-eps-converted-to.pdf>]
 File: fig/background_small.png Graphic file (type png)
  <use fig/background_small.png>
-Package pdftex.def Info: fig/background_small.png used on input line 70.
+Package pdftex.def Info: fig/background_small.png used on input line 61.
 (pdftex.def)             Requested size: 364.19536pt x 272.78287pt.
- [9
+ [10
 
 ]
 File: fig/background_small.png Graphic file (type png)
  <use fig/background_small.png>
-Package pdftex.def Info: fig/background_small.png used on input line 87.
+Package pdftex.def Info: fig/background_small.png used on input line 72.
 (pdftex.def)             Requested size: 364.19536pt x 272.78287pt.
 
-[10
+[11
 
 ]
 File: fig/background_small.png Graphic file (type png)
  <use fig/background_small.png>
-Package pdftex.def Info: fig/background_small.png used on input line 100.
-(pdftex.def)             Requested size: 364.19536pt x 272.78287pt.
- [11
-
-]) (./inhalt-ergebnisse.tex
-File: fig/background_small.png Graphic file (type png)
-
-<use fig/background_small.png>
-Package pdftex.def Info: fig/background_small.png used on input line 18.
+Package pdftex.def Info: fig/background_small.png used on input line 82.
 (pdftex.def)             Requested size: 364.19536pt x 272.78287pt.
  [12
 
-]
-File: fig/background_small.png Graphic file (type png)
- <use fig/background_small.png>
-Package pdftex.def Info: fig/background_small.png used on input line 35.
+]) (./ergebnisse.tex (./master.toc)
+File: fig/background.png Graphic file (type png)
+
+<use fig/background.png>
+Package pdftex.def Info: fig/background.png used on input line 1.
 (pdftex.def)             Requested size: 364.19536pt x 272.78287pt.
  [13
 
 ]
 File: fig/background_small.png Graphic file (type png)
-
-<use fig/background_small.png>
-Package pdftex.def Info: fig/background_small.png used on input line 52.
+ <use fig/background_small.png>
+Package pdftex.def Info: fig/background_small.png used on input line 11.
 (pdftex.def)             Requested size: 364.19536pt x 272.78287pt.
  [14
+
+]
+File: fig/background_small.png Graphic file (type png)
+
+<use fig/background_small.png>
+Package pdftex.def Info: fig/background_small.png used on input line 26.
+(pdftex.def)             Requested size: 364.19536pt x 272.78287pt.
+ [15
+
+]
+File: fig/background_small.png Graphic file (type png)
+ <use fig/background_small.png>
+Package pdftex.def Info: fig/background_small.png used on input line 43.
+(pdftex.def)             Requested size: 364.19536pt x 272.78287pt.
+ [16
 
 ]
 Package epstopdf Info: Source file: <fig/plots/scenario_1_default/plots/Generat
@@ -1419,27 +1250,109 @@ edMeanChunkCompletion.csv-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=fig/plots/scenario_1_defau
 lt/plots/GeneratedMeanChunkCompletion.csv-eps-converted-to.pdf fig/plots/scenar
 io_1_default/plots/GeneratedMeanChunkCompletion.csv.eps>
-(epstopdf)             \includegraphics on input line 62.
+(epstopdf)             \includegraphics on input line 58.
 Package epstopdf Info: Output file is already uptodate.
 
 <fig/plots/scenario_1_default/plots/GeneratedMeanChunkCompletion.csv-eps-conver
-ted-to.pdf, id=490, 361.35pt x 252.945pt>
+ted-to.pdf, id=189, 361.35pt x 252.945pt>
 File: fig/plots/scenario_1_default/plots/GeneratedMeanChunkCompletion.csv-eps-c
 onverted-to.pdf Graphic file (type pdf)
 
 <use fig/plots/scenario_1_default/plots/GeneratedMeanChunkCompletion.csv-eps-co
 nverted-to.pdf>
 Package pdftex.def Info: fig/plots/scenario_1_default/plots/GeneratedMeanChunkC
-ompletion.csv-eps-converted-to.pdf used on input line 62.
-(pdftex.def)             Requested size: 307.28987pt x 215.10461pt.
+ompletion.csv-eps-converted-to.pdf used on input line 58.
+(pdftex.def)             Requested size: 150.57372pt x 105.4025pt.
+Package epstopdf Info: Source file: <fig/plots/scenario_1_default/plots/Generat
+edMeanSortedChunkCompletion.csv.eps>
+(epstopdf)                    date: 2014-11-20 14:59:18
+(epstopdf)                    size: 22679 bytes
+(epstopdf)             Output file: <fig/plots/scenario_1_default/plots/Generat
+edMeanSortedChunkCompletion.csv-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-11-20 14:59:18
+(epstopdf)                    size: 7152 bytes
+(epstopdf)             Command: <repstopdf --outfile=fig/plots/scenario_1_defau
+lt/plots/GeneratedMeanSortedChunkCompletion.csv-eps-converted-to.pdf fig/plots/
+scenario_1_default/plots/GeneratedMeanSortedChunkCompletion.csv.eps>
+(epstopdf)             \includegraphics on input line 58.
+Package epstopdf Info: Output file is already uptodate.
+
+<fig/plots/scenario_1_default/plots/GeneratedMeanSortedChunkCompletion.csv-eps-
+converted-to.pdf, id=190, 361.35pt x 252.945pt>
+File: fig/plots/scenario_1_default/plots/GeneratedMeanSortedChunkCompletion.csv
+-eps-converted-to.pdf Graphic file (type pdf)
+
+<use fig/plots/scenario_1_default/plots/GeneratedMeanSortedChunkCompletion.csv-
+eps-converted-to.pdf>
+Package pdftex.def Info: fig/plots/scenario_1_default/plots/GeneratedMeanSorted
+ChunkCompletion.csv-eps-converted-to.pdf used on input line 58.
+(pdftex.def)             Requested size: 150.57372pt x 105.4025pt.
 File: fig/background_small.png Graphic file (type png)
  <use fig/background_small.png>
-Package pdftex.def Info: fig/background_small.png used on input line 62.
+Package pdftex.def Info: fig/background_small.png used on input line 58.
 (pdftex.def)             Requested size: 364.19536pt x 272.78287pt.
- [15
+ [17
 
  <./fig/plots/scenario_1_default/plots/GeneratedMeanChunkCompletion.csv-eps-con
-verted-to.pdf>]
+verted-to.pdf> <./fig/plots/scenario_1_default/plots/GeneratedMeanSortedChunkCo
+mpletion.csv-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <fig/plots/scenario_1_default/plots/Generat
+edMeanCurrentUploadBandwidth.csv.eps>
+(epstopdf)                    date: 2014-11-20 14:59:18
+(epstopdf)                    size: 62697 bytes
+(epstopdf)             Output file: <fig/plots/scenario_1_default/plots/Generat
+edMeanCurrentUploadBandwidth.csv-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-11-20 14:59:18
+(epstopdf)                    size: 18230 bytes
+(epstopdf)             Command: <repstopdf --outfile=fig/plots/scenario_1_defau
+lt/plots/GeneratedMeanCurrentUploadBandwidth.csv-eps-converted-to.pdf fig/plots
+/scenario_1_default/plots/GeneratedMeanCurrentUploadBandwidth.csv.eps>
+(epstopdf)             \includegraphics on input line 71.
+Package epstopdf Info: Output file is already uptodate.
+
+<fig/plots/scenario_1_default/plots/GeneratedMeanCurrentUploadBandwidth.csv-eps
+-converted-to.pdf, id=209, 361.35pt x 252.945pt>
+File: fig/plots/scenario_1_default/plots/GeneratedMeanCurrentUploadBandwidth.cs
+v-eps-converted-to.pdf Graphic file (type pdf)
+
+<use fig/plots/scenario_1_default/plots/GeneratedMeanCurrentUploadBandwidth.csv
+-eps-converted-to.pdf>
+Package pdftex.def Info: fig/plots/scenario_1_default/plots/GeneratedMeanCurren
+tUploadBandwidth.csv-eps-converted-to.pdf used on input line 71.
+(pdftex.def)             Requested size: 150.57372pt x 105.4025pt.
+Package epstopdf Info: Source file: <fig/plots/scenario_1_default/plots/Generat
+edMeanCurrentDownloadBandwidth.csv.eps>
+(epstopdf)                    date: 2014-11-20 14:59:18
+(epstopdf)                    size: 63371 bytes
+(epstopdf)             Output file: <fig/plots/scenario_1_default/plots/Generat
+edMeanCurrentDownloadBandwidth.csv-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-11-20 14:59:18
+(epstopdf)                    size: 19577 bytes
+(epstopdf)             Command: <repstopdf --outfile=fig/plots/scenario_1_defau
+lt/plots/GeneratedMeanCurrentDownloadBandwidth.csv-eps-converted-to.pdf fig/plo
+ts/scenario_1_default/plots/GeneratedMeanCurrentDownloadBandwidth.csv.eps>
+(epstopdf)             \includegraphics on input line 71.
+Package epstopdf Info: Output file is already uptodate.
+
+<fig/plots/scenario_1_default/plots/GeneratedMeanCurrentDownloadBandwidth.csv-e
+ps-converted-to.pdf, id=210, 361.35pt x 252.945pt>
+File: fig/plots/scenario_1_default/plots/GeneratedMeanCurrentDownloadBandwidth.
+csv-eps-converted-to.pdf Graphic file (type pdf)
+
+<use fig/plots/scenario_1_default/plots/GeneratedMeanCurrentDownloadBandwidth.c
+sv-eps-converted-to.pdf>
+Package pdftex.def Info: fig/plots/scenario_1_default/plots/GeneratedMeanCurren
+tDownloadBandwidth.csv-eps-converted-to.pdf used on input line 71.
+(pdftex.def)             Requested size: 150.57372pt x 105.4025pt.
+File: fig/background_small.png Graphic file (type png)
+ <use fig/background_small.png>
+Package pdftex.def Info: fig/background_small.png used on input line 71.
+(pdftex.def)             Requested size: 364.19536pt x 272.78287pt.
+ [18
+
+ <./fig/plots/scenario_1_default/plots/GeneratedMeanCurrentUploadBandwidth.csv-
+eps-converted-to.pdf> <./fig/plots/scenario_1_default/plots/GeneratedMeanCurren
+tDownloadBandwidth.csv-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <fig/plots/scenario_1_default/plots/Generat
 edMeanCurrentSuperSeederUploadBandwidth.csv.eps>
 (epstopdf)                    date: 2014-11-20 14:59:18
@@ -1452,91 +1365,27 @@ edMeanCurrentSuperSeederUploadBandwidth.csv-eps-converted-to.pdf>
 lt/plots/GeneratedMeanCurrentSuperSeederUploadBandwidth.csv-eps-converted-to.pd
 f fig/plots/scenario_1_default/plots/GeneratedMeanCurrentSuperSeederUploadBandw
 idth.csv.eps>
-(epstopdf)             \includegraphics on input line 72.
+(epstopdf)             \includegraphics on input line 79.
 Package epstopdf Info: Output file is already uptodate.
 
 <fig/plots/scenario_1_default/plots/GeneratedMeanCurrentSuperSeederUploadBandwi
-dth.csv-eps-converted-to.pdf, id=523, 361.35pt x 252.945pt>
+dth.csv-eps-converted-to.pdf, id=229, 361.35pt x 252.945pt>
 File: fig/plots/scenario_1_default/plots/GeneratedMeanCurrentSuperSeederUploadB
 andwidth.csv-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig/plots/scenario_1_default/plots/GeneratedMeanCurrentSuperSeederUploadBa
 ndwidth.csv-eps-converted-to.pdf>
 Package pdftex.def Info: fig/plots/scenario_1_default/plots/GeneratedMeanCurren
-tSuperSeederUploadBandwidth.csv-eps-converted-to.pdf used on input line 72.
-(pdftex.def)             Requested size: 307.28987pt x 215.10461pt.
+tSuperSeederUploadBandwidth.csv-eps-converted-to.pdf used on input line 79.
+(pdftex.def)             Requested size: 150.57372pt x 105.4025pt.
 File: fig/background_small.png Graphic file (type png)
  <use fig/background_small.png>
-Package pdftex.def Info: fig/background_small.png used on input line 72.
+Package pdftex.def Info: fig/background_small.png used on input line 79.
 (pdftex.def)             Requested size: 364.19536pt x 272.78287pt.
- [16
+ [19
 
  <./fig/plots/scenario_1_default/plots/GeneratedMeanCurrentSuperSeederUploadBan
 dwidth.csv-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <fig/plots/scenario_1_default/plots/Generat
-edMeanCurrentUploadBandwidth.csv.eps>
-(epstopdf)                    date: 2014-11-20 14:59:18
-(epstopdf)                    size: 62697 bytes
-(epstopdf)             Output file: <fig/plots/scenario_1_default/plots/Generat
-edMeanCurrentUploadBandwidth.csv-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-11-20 14:59:18
-(epstopdf)                    size: 18230 bytes
-(epstopdf)             Command: <repstopdf --outfile=fig/plots/scenario_1_defau
-lt/plots/GeneratedMeanCurrentUploadBandwidth.csv-eps-converted-to.pdf fig/plots
-/scenario_1_default/plots/GeneratedMeanCurrentUploadBandwidth.csv.eps>
-(epstopdf)             \includegraphics on input line 82.
-Package epstopdf Info: Output file is already uptodate.
-
-<fig/plots/scenario_1_default/plots/GeneratedMeanCurrentUploadBandwidth.csv-eps
--converted-to.pdf, id=556, 361.35pt x 252.945pt>
-File: fig/plots/scenario_1_default/plots/GeneratedMeanCurrentUploadBandwidth.cs
-v-eps-converted-to.pdf Graphic file (type pdf)
-
-<use fig/plots/scenario_1_default/plots/GeneratedMeanCurrentUploadBandwidth.csv
--eps-converted-to.pdf>
-Package pdftex.def Info: fig/plots/scenario_1_default/plots/GeneratedMeanCurren
-tUploadBandwidth.csv-eps-converted-to.pdf used on input line 82.
-(pdftex.def)             Requested size: 307.28987pt x 215.10461pt.
-File: fig/background_small.png Graphic file (type png)
- <use fig/background_small.png>
-Package pdftex.def Info: fig/background_small.png used on input line 82.
-(pdftex.def)             Requested size: 364.19536pt x 272.78287pt.
- [17
-
- <./fig/plots/scenario_1_default/plots/GeneratedMeanCurrentUploadBandwidth.csv-
-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <fig/plots/scenario_1_default/plots/Generat
-edMeanCurrentDownloadBandwidth.csv.eps>
-(epstopdf)                    date: 2014-11-20 14:59:18
-(epstopdf)                    size: 63371 bytes
-(epstopdf)             Output file: <fig/plots/scenario_1_default/plots/Generat
-edMeanCurrentDownloadBandwidth.csv-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-11-20 14:59:18
-(epstopdf)                    size: 19577 bytes
-(epstopdf)             Command: <repstopdf --outfile=fig/plots/scenario_1_defau
-lt/plots/GeneratedMeanCurrentDownloadBandwidth.csv-eps-converted-to.pdf fig/plo
-ts/scenario_1_default/plots/GeneratedMeanCurrentDownloadBandwidth.csv.eps>
-(epstopdf)             \includegraphics on input line 92.
-Package epstopdf Info: Output file is already uptodate.
-
-<fig/plots/scenario_1_default/plots/GeneratedMeanCurrentDownloadBandwidth.csv-e
-ps-converted-to.pdf, id=590, 361.35pt x 252.945pt>
-File: fig/plots/scenario_1_default/plots/GeneratedMeanCurrentDownloadBandwidth.
-csv-eps-converted-to.pdf Graphic file (type pdf)
-
-<use fig/plots/scenario_1_default/plots/GeneratedMeanCurrentDownloadBandwidth.c
-sv-eps-converted-to.pdf>
-Package pdftex.def Info: fig/plots/scenario_1_default/plots/GeneratedMeanCurren
-tDownloadBandwidth.csv-eps-converted-to.pdf used on input line 92.
-(pdftex.def)             Requested size: 307.28987pt x 215.10461pt.
-File: fig/background_small.png Graphic file (type png)
- <use fig/background_small.png>
-Package pdftex.def Info: fig/background_small.png used on input line 92.
-(pdftex.def)             Requested size: 364.19536pt x 272.78287pt.
- [18
-
- <./fig/plots/scenario_1_default/plots/GeneratedMeanCurrentDownloadBandwidth.cs
-v-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <fig/plots/scenario_4_peer_count_128/plots/
 GeneratedMeanChunkCompletion.csv.eps>
 (epstopdf)                    date: 2014-11-20 14:59:19
@@ -1548,24 +1397,28 @@ GeneratedMeanChunkCompletion.csv-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=fig/plots/scenario_4_peer_
 count_128/plots/GeneratedMeanChunkCompletion.csv-eps-converted-to.pdf fig/plots
 /scenario_4_peer_count_128/plots/GeneratedMeanChunkCompletion.csv.eps>
-(epstopdf)             \includegraphics on input line 105.
+(epstopdf)             \includegraphics on input line 93.
 Package epstopdf Info: Output file is already uptodate.
 
 <fig/plots/scenario_4_peer_count_128/plots/GeneratedMeanChunkCompletion.csv-eps
--converted-to.pdf, id=623, 361.35pt x 252.945pt>
+-converted-to.pdf, id=244, 361.35pt x 252.945pt>
 File: fig/plots/scenario_4_peer_count_128/plots/GeneratedMeanChunkCompletion.cs
 v-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig/plots/scenario_4_peer_count_128/plots/GeneratedMeanChunkCompletion.csv
 -eps-converted-to.pdf>
 Package pdftex.def Info: fig/plots/scenario_4_peer_count_128/plots/GeneratedMea
-nChunkCompletion.csv-eps-converted-to.pdf used on input line 105.
+nChunkCompletion.csv-eps-converted-to.pdf used on input line 93.
 (pdftex.def)             Requested size: 307.28987pt x 215.10461pt.
+
+Overfull \vbox (8.60898pt too high) detected at line 93
+ []
+
 File: fig/background_small.png Graphic file (type png)
- <use fig/background_small.png>
-Package pdftex.def Info: fig/background_small.png used on input line 105.
+<use fig/background_small.png>
+Package pdftex.def Info: fig/background_small.png used on input line 93.
 (pdftex.def)             Requested size: 364.19536pt x 272.78287pt.
- [19
+ [20
 
  <./fig/plots/scenario_4_peer_count_128/plots/GeneratedMeanChunkCompletion.csv-
 eps-converted-to.pdf>]
@@ -1581,11 +1434,11 @@ GeneratedMeanCurrentSuperSeederUploadBandwidth.csv-eps-converted-to.pdf>
 count_128/plots/GeneratedMeanCurrentSuperSeederUploadBandwidth.csv-eps-converte
 d-to.pdf fig/plots/scenario_4_peer_count_128/plots/GeneratedMeanCurrentSuperSee
 derUploadBandwidth.csv.eps>
-(epstopdf)             \includegraphics on input line 115.
+(epstopdf)             \includegraphics on input line 103.
 Package epstopdf Info: Output file is already uptodate.
 
 <fig/plots/scenario_4_peer_count_128/plots/GeneratedMeanCurrentSuperSeederUploa
-dBandwidth.csv-eps-converted-to.pdf, id=657, 361.35pt x 252.945pt>
+dBandwidth.csv-eps-converted-to.pdf, id=258, 361.35pt x 252.945pt>
 File: fig/plots/scenario_4_peer_count_128/plots/GeneratedMeanCurrentSuperSeeder
 UploadBandwidth.csv-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -1593,14 +1446,17 @@ UploadBandwidth.csv-eps-converted-to.pdf Graphic file (type pdf)
 ploadBandwidth.csv-eps-converted-to.pdf>
 Package pdftex.def Info: fig/plots/scenario_4_peer_count_128/plots/GeneratedMea
 nCurrentSuperSeederUploadBandwidth.csv-eps-converted-to.pdf used on input line 
-115.
+103.
 (pdftex.def)             Requested size: 307.28987pt x 215.10461pt.
-File: fig/background_small.png Graphic file (type png)
- <use fig/background_small.png>
-Package pdftex.def Info: fig/background_small.png used on input line 115.
-(pdftex.def)             Requested size: 364.19536pt x 272.78287pt.
 
-[20
+Overfull \vbox (8.60898pt too high) detected at line 103
+ []
+
+File: fig/background_small.png Graphic file (type png)
+<use fig/background_small.png>
+Package pdftex.def Info: fig/background_small.png used on input line 103.
+(pdftex.def)             Requested size: 364.19536pt x 272.78287pt.
+ [21
 
  <./fig/plots/scenario_4_peer_count_128/plots/GeneratedMeanCurrentSuperSeederUp
 loadBandwidth.csv-eps-converted-to.pdf>]
@@ -1616,24 +1472,28 @@ GeneratedMeanCurrentUploadBandwidth.csv-eps-converted-to.pdf>
 count_128/plots/GeneratedMeanCurrentUploadBandwidth.csv-eps-converted-to.pdf fi
 g/plots/scenario_4_peer_count_128/plots/GeneratedMeanCurrentUploadBandwidth.csv
 .eps>
-(epstopdf)             \includegraphics on input line 125.
+(epstopdf)             \includegraphics on input line 113.
 Package epstopdf Info: Output file is already uptodate.
 
 <fig/plots/scenario_4_peer_count_128/plots/GeneratedMeanCurrentUploadBandwidth.
-csv-eps-converted-to.pdf, id=691, 361.35pt x 252.945pt>
+csv-eps-converted-to.pdf, id=272, 361.35pt x 252.945pt>
 File: fig/plots/scenario_4_peer_count_128/plots/GeneratedMeanCurrentUploadBandw
 idth.csv-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig/plots/scenario_4_peer_count_128/plots/GeneratedMeanCurrentUploadBandwi
 dth.csv-eps-converted-to.pdf>
 Package pdftex.def Info: fig/plots/scenario_4_peer_count_128/plots/GeneratedMea
-nCurrentUploadBandwidth.csv-eps-converted-to.pdf used on input line 125.
+nCurrentUploadBandwidth.csv-eps-converted-to.pdf used on input line 113.
 (pdftex.def)             Requested size: 307.28987pt x 215.10461pt.
+
+Overfull \vbox (8.60898pt too high) detected at line 113
+ []
+
 File: fig/background_small.png Graphic file (type png)
- <use fig/background_small.png>
-Package pdftex.def Info: fig/background_small.png used on input line 125.
+<use fig/background_small.png>
+Package pdftex.def Info: fig/background_small.png used on input line 113.
 (pdftex.def)             Requested size: 364.19536pt x 272.78287pt.
- [21
+ [22
 
  <./fig/plots/scenario_4_peer_count_128/plots/GeneratedMeanCurrentUploadBandwid
 th.csv-eps-converted-to.pdf>]
@@ -1649,24 +1509,28 @@ GeneratedMeanCurrentDownloadBandwidth.csv-eps-converted-to.pdf>
 count_128/plots/GeneratedMeanCurrentDownloadBandwidth.csv-eps-converted-to.pdf 
 fig/plots/scenario_4_peer_count_128/plots/GeneratedMeanCurrentDownloadBandwidth
 .csv.eps>
-(epstopdf)             \includegraphics on input line 135.
+(epstopdf)             \includegraphics on input line 123.
 Package epstopdf Info: Output file is already uptodate.
 
 <fig/plots/scenario_4_peer_count_128/plots/GeneratedMeanCurrentDownloadBandwidt
-h.csv-eps-converted-to.pdf, id=724, 361.35pt x 252.945pt>
+h.csv-eps-converted-to.pdf, id=287, 361.35pt x 252.945pt>
 File: fig/plots/scenario_4_peer_count_128/plots/GeneratedMeanCurrentDownloadBan
 dwidth.csv-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig/plots/scenario_4_peer_count_128/plots/GeneratedMeanCurrentDownloadBand
 width.csv-eps-converted-to.pdf>
 Package pdftex.def Info: fig/plots/scenario_4_peer_count_128/plots/GeneratedMea
-nCurrentDownloadBandwidth.csv-eps-converted-to.pdf used on input line 135.
+nCurrentDownloadBandwidth.csv-eps-converted-to.pdf used on input line 123.
 (pdftex.def)             Requested size: 307.28987pt x 215.10461pt.
+
+Overfull \vbox (6.81798pt too high) detected at line 123
+ []
+
 File: fig/background_small.png Graphic file (type png)
- <use fig/background_small.png>
-Package pdftex.def Info: fig/background_small.png used on input line 135.
+<use fig/background_small.png>
+Package pdftex.def Info: fig/background_small.png used on input line 123.
 (pdftex.def)             Requested size: 364.19536pt x 272.78287pt.
- [22
+ [23
 
  <./fig/plots/scenario_4_peer_count_128/plots/GeneratedMeanCurrentDownloadBandw
 idth.csv-eps-converted-to.pdf>]
@@ -1681,24 +1545,28 @@ ots/GeneratedMeanChunkCompletion.csv-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=fig/plots/scenario_11_peer
 _count_192_v2/plots/GeneratedMeanChunkCompletion.csv-eps-converted-to.pdf fig/p
 lots/scenario_11_peer_count_192_v2/plots/GeneratedMeanChunkCompletion.csv.eps>
-(epstopdf)             \includegraphics on input line 148.
+(epstopdf)             \includegraphics on input line 136.
 Package epstopdf Info: Output file is already uptodate.
 
 <fig/plots/scenario_11_peer_count_192_v2/plots/GeneratedMeanChunkCompletion.csv
--eps-converted-to.pdf, id=757, 361.35pt x 252.945pt>
+-eps-converted-to.pdf, id=301, 361.35pt x 252.945pt>
 File: fig/plots/scenario_11_peer_count_192_v2/plots/GeneratedMeanChunkCompletio
 n.csv-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig/plots/scenario_11_peer_count_192_v2/plots/GeneratedMeanChunkCompletion
 .csv-eps-converted-to.pdf>
 Package pdftex.def Info: fig/plots/scenario_11_peer_count_192_v2/plots/Generate
-dMeanChunkCompletion.csv-eps-converted-to.pdf used on input line 148.
+dMeanChunkCompletion.csv-eps-converted-to.pdf used on input line 136.
 (pdftex.def)             Requested size: 307.28987pt x 215.10461pt.
+
+Overfull \vbox (8.60898pt too high) detected at line 136
+ []
+
 File: fig/background_small.png Graphic file (type png)
- <use fig/background_small.png>
-Package pdftex.def Info: fig/background_small.png used on input line 148.
+<use fig/background_small.png>
+Package pdftex.def Info: fig/background_small.png used on input line 136.
 (pdftex.def)             Requested size: 364.19536pt x 272.78287pt.
- [23
+ [24
 
  <./fig/plots/scenario_11_peer_count_192_v2/plots/GeneratedMeanChunkCompletion.
 csv-eps-converted-to.pdf>]
@@ -1714,11 +1582,11 @@ ots/GeneratedMeanCurrentSuperSeederUploadBandwidth.csv-eps-converted-to.pdf>
 _count_192_v2/plots/GeneratedMeanCurrentSuperSeederUploadBandwidth.csv-eps-conv
 erted-to.pdf fig/plots/scenario_11_peer_count_192_v2/plots/GeneratedMeanCurrent
 SuperSeederUploadBandwidth.csv.eps>
-(epstopdf)             \includegraphics on input line 158.
+(epstopdf)             \includegraphics on input line 146.
 Package epstopdf Info: Output file is already uptodate.
 
 <fig/plots/scenario_11_peer_count_192_v2/plots/GeneratedMeanCurrentSuperSeederU
-ploadBandwidth.csv-eps-converted-to.pdf, id=790, 361.35pt x 252.945pt>
+ploadBandwidth.csv-eps-converted-to.pdf, id=315, 361.35pt x 252.945pt>
 File: fig/plots/scenario_11_peer_count_192_v2/plots/GeneratedMeanCurrentSuperSe
 ederUploadBandwidth.csv-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -1726,14 +1594,17 @@ ederUploadBandwidth.csv-eps-converted-to.pdf Graphic file (type pdf)
 derUploadBandwidth.csv-eps-converted-to.pdf>
 Package pdftex.def Info: fig/plots/scenario_11_peer_count_192_v2/plots/Generate
 dMeanCurrentSuperSeederUploadBandwidth.csv-eps-converted-to.pdf used on input l
-ine 158.
+ine 146.
 (pdftex.def)             Requested size: 307.28987pt x 215.10461pt.
-File: fig/background_small.png Graphic file (type png)
- <use fig/background_small.png>
-Package pdftex.def Info: fig/background_small.png used on input line 158.
-(pdftex.def)             Requested size: 364.19536pt x 272.78287pt.
 
-[24
+Overfull \vbox (8.60898pt too high) detected at line 146
+ []
+
+File: fig/background_small.png Graphic file (type png)
+<use fig/background_small.png>
+Package pdftex.def Info: fig/background_small.png used on input line 146.
+(pdftex.def)             Requested size: 364.19536pt x 272.78287pt.
+ [25
 
  <./fig/plots/scenario_11_peer_count_192_v2/plots/GeneratedMeanCurrentSuperSeed
 erUploadBandwidth.csv-eps-converted-to.pdf>]
@@ -1749,24 +1620,28 @@ ots/GeneratedMeanCurrentUploadBandwidth.csv-eps-converted-to.pdf>
 _count_192_v2/plots/GeneratedMeanCurrentUploadBandwidth.csv-eps-converted-to.pd
 f fig/plots/scenario_11_peer_count_192_v2/plots/GeneratedMeanCurrentUploadBandw
 idth.csv.eps>
-(epstopdf)             \includegraphics on input line 168.
+(epstopdf)             \includegraphics on input line 156.
 Package epstopdf Info: Output file is already uptodate.
 
 <fig/plots/scenario_11_peer_count_192_v2/plots/GeneratedMeanCurrentUploadBandwi
-dth.csv-eps-converted-to.pdf, id=824, 361.35pt x 252.945pt>
+dth.csv-eps-converted-to.pdf, id=330, 361.35pt x 252.945pt>
 File: fig/plots/scenario_11_peer_count_192_v2/plots/GeneratedMeanCurrentUploadB
 andwidth.csv-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig/plots/scenario_11_peer_count_192_v2/plots/GeneratedMeanCurrentUploadBa
 ndwidth.csv-eps-converted-to.pdf>
 Package pdftex.def Info: fig/plots/scenario_11_peer_count_192_v2/plots/Generate
-dMeanCurrentUploadBandwidth.csv-eps-converted-to.pdf used on input line 168.
+dMeanCurrentUploadBandwidth.csv-eps-converted-to.pdf used on input line 156.
 (pdftex.def)             Requested size: 307.28987pt x 215.10461pt.
+
+Overfull \vbox (8.60898pt too high) detected at line 156
+ []
+
 File: fig/background_small.png Graphic file (type png)
- <use fig/background_small.png>
-Package pdftex.def Info: fig/background_small.png used on input line 168.
+<use fig/background_small.png>
+Package pdftex.def Info: fig/background_small.png used on input line 156.
 (pdftex.def)             Requested size: 364.19536pt x 272.78287pt.
- [25
+ [26
 
  <./fig/plots/scenario_11_peer_count_192_v2/plots/GeneratedMeanCurrentUploadBan
 dwidth.csv-eps-converted-to.pdf>]
@@ -1782,24 +1657,28 @@ ots/GeneratedMeanCurrentDownloadBandwidth.csv-eps-converted-to.pdf>
 _count_192_v2/plots/GeneratedMeanCurrentDownloadBandwidth.csv-eps-converted-to.
 pdf fig/plots/scenario_11_peer_count_192_v2/plots/GeneratedMeanCurrentDownloadB
 andwidth.csv.eps>
-(epstopdf)             \includegraphics on input line 178.
+(epstopdf)             \includegraphics on input line 166.
 Package epstopdf Info: Output file is already uptodate.
 
 <fig/plots/scenario_11_peer_count_192_v2/plots/GeneratedMeanCurrentDownloadBand
-width.csv-eps-converted-to.pdf, id=858, 361.35pt x 252.945pt>
+width.csv-eps-converted-to.pdf, id=344, 361.35pt x 252.945pt>
 File: fig/plots/scenario_11_peer_count_192_v2/plots/GeneratedMeanCurrentDownloa
 dBandwidth.csv-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig/plots/scenario_11_peer_count_192_v2/plots/GeneratedMeanCurrentDownload
 Bandwidth.csv-eps-converted-to.pdf>
 Package pdftex.def Info: fig/plots/scenario_11_peer_count_192_v2/plots/Generate
-dMeanCurrentDownloadBandwidth.csv-eps-converted-to.pdf used on input line 178.
+dMeanCurrentDownloadBandwidth.csv-eps-converted-to.pdf used on input line 166.
 (pdftex.def)             Requested size: 307.28987pt x 215.10461pt.
+
+Overfull \vbox (6.81798pt too high) detected at line 166
+ []
+
 File: fig/background_small.png Graphic file (type png)
- <use fig/background_small.png>
-Package pdftex.def Info: fig/background_small.png used on input line 178.
+<use fig/background_small.png>
+Package pdftex.def Info: fig/background_small.png used on input line 166.
 (pdftex.def)             Requested size: 364.19536pt x 272.78287pt.
- [26
+ [27
 
  <./fig/plots/scenario_11_peer_count_192_v2/plots/GeneratedMeanCurrentDownloadB
 andwidth.csv-eps-converted-to.pdf>]
@@ -1814,24 +1693,28 @@ ots/GeneratedMeanChunkCompletion.csv-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=fig/plots/scenario_15_chun
 k_count_fac_4/plots/GeneratedMeanChunkCompletion.csv-eps-converted-to.pdf fig/p
 lots/scenario_15_chunk_count_fac_4/plots/GeneratedMeanChunkCompletion.csv.eps>
-(epstopdf)             \includegraphics on input line 191.
+(epstopdf)             \includegraphics on input line 179.
 Package epstopdf Info: Output file is already uptodate.
 
 <fig/plots/scenario_15_chunk_count_fac_4/plots/GeneratedMeanChunkCompletion.csv
--eps-converted-to.pdf, id=891, 361.35pt x 252.945pt>
+-eps-converted-to.pdf, id=358, 361.35pt x 252.945pt>
 File: fig/plots/scenario_15_chunk_count_fac_4/plots/GeneratedMeanChunkCompletio
 n.csv-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig/plots/scenario_15_chunk_count_fac_4/plots/GeneratedMeanChunkCompletion
 .csv-eps-converted-to.pdf>
 Package pdftex.def Info: fig/plots/scenario_15_chunk_count_fac_4/plots/Generate
-dMeanChunkCompletion.csv-eps-converted-to.pdf used on input line 191.
+dMeanChunkCompletion.csv-eps-converted-to.pdf used on input line 179.
 (pdftex.def)             Requested size: 307.28987pt x 215.10461pt.
+
+Overfull \vbox (8.60898pt too high) detected at line 179
+ []
+
 File: fig/background_small.png Graphic file (type png)
- <use fig/background_small.png>
-Package pdftex.def Info: fig/background_small.png used on input line 191.
+<use fig/background_small.png>
+Package pdftex.def Info: fig/background_small.png used on input line 179.
 (pdftex.def)             Requested size: 364.19536pt x 272.78287pt.
- [27
+ [28
 
  <./fig/plots/scenario_15_chunk_count_fac_4/plots/GeneratedMeanChunkCompletion.
 csv-eps-converted-to.pdf>]
@@ -1847,11 +1730,11 @@ ots/GeneratedMeanCurrentSuperSeederUploadBandwidth.csv-eps-converted-to.pdf>
 k_count_fac_4/plots/GeneratedMeanCurrentSuperSeederUploadBandwidth.csv-eps-conv
 erted-to.pdf fig/plots/scenario_15_chunk_count_fac_4/plots/GeneratedMeanCurrent
 SuperSeederUploadBandwidth.csv.eps>
-(epstopdf)             \includegraphics on input line 201.
+(epstopdf)             \includegraphics on input line 189.
 Package epstopdf Info: Output file is already uptodate.
 
 <fig/plots/scenario_15_chunk_count_fac_4/plots/GeneratedMeanCurrentSuperSeederU
-ploadBandwidth.csv-eps-converted-to.pdf, id=925, 361.35pt x 252.945pt>
+ploadBandwidth.csv-eps-converted-to.pdf, id=372, 361.35pt x 252.945pt>
 File: fig/plots/scenario_15_chunk_count_fac_4/plots/GeneratedMeanCurrentSuperSe
 ederUploadBandwidth.csv-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -1859,14 +1742,17 @@ ederUploadBandwidth.csv-eps-converted-to.pdf Graphic file (type pdf)
 derUploadBandwidth.csv-eps-converted-to.pdf>
 Package pdftex.def Info: fig/plots/scenario_15_chunk_count_fac_4/plots/Generate
 dMeanCurrentSuperSeederUploadBandwidth.csv-eps-converted-to.pdf used on input l
-ine 201.
+ine 189.
 (pdftex.def)             Requested size: 307.28987pt x 215.10461pt.
-File: fig/background_small.png Graphic file (type png)
- <use fig/background_small.png>
-Package pdftex.def Info: fig/background_small.png used on input line 201.
-(pdftex.def)             Requested size: 364.19536pt x 272.78287pt.
 
-[28
+Overfull \vbox (8.60898pt too high) detected at line 189
+ []
+
+File: fig/background_small.png Graphic file (type png)
+<use fig/background_small.png>
+Package pdftex.def Info: fig/background_small.png used on input line 189.
+(pdftex.def)             Requested size: 364.19536pt x 272.78287pt.
+ [29
 
  <./fig/plots/scenario_15_chunk_count_fac_4/plots/GeneratedMeanCurrentSuperSeed
 erUploadBandwidth.csv-eps-converted-to.pdf>]
@@ -1882,24 +1768,28 @@ ots/GeneratedMeanCurrentUploadBandwidth.csv-eps-converted-to.pdf>
 k_count_fac_4/plots/GeneratedMeanCurrentUploadBandwidth.csv-eps-converted-to.pd
 f fig/plots/scenario_15_chunk_count_fac_4/plots/GeneratedMeanCurrentUploadBandw
 idth.csv.eps>
-(epstopdf)             \includegraphics on input line 211.
+(epstopdf)             \includegraphics on input line 199.
 Package epstopdf Info: Output file is already uptodate.
 
 <fig/plots/scenario_15_chunk_count_fac_4/plots/GeneratedMeanCurrentUploadBandwi
-dth.csv-eps-converted-to.pdf, id=958, 361.35pt x 252.945pt>
+dth.csv-eps-converted-to.pdf, id=386, 361.35pt x 252.945pt>
 File: fig/plots/scenario_15_chunk_count_fac_4/plots/GeneratedMeanCurrentUploadB
 andwidth.csv-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig/plots/scenario_15_chunk_count_fac_4/plots/GeneratedMeanCurrentUploadBa
 ndwidth.csv-eps-converted-to.pdf>
 Package pdftex.def Info: fig/plots/scenario_15_chunk_count_fac_4/plots/Generate
-dMeanCurrentUploadBandwidth.csv-eps-converted-to.pdf used on input line 211.
+dMeanCurrentUploadBandwidth.csv-eps-converted-to.pdf used on input line 199.
 (pdftex.def)             Requested size: 307.28987pt x 215.10461pt.
+
+Overfull \vbox (8.60898pt too high) detected at line 199
+ []
+
 File: fig/background_small.png Graphic file (type png)
- <use fig/background_small.png>
-Package pdftex.def Info: fig/background_small.png used on input line 211.
+<use fig/background_small.png>
+Package pdftex.def Info: fig/background_small.png used on input line 199.
 (pdftex.def)             Requested size: 364.19536pt x 272.78287pt.
- [29
+ [30
 
  <./fig/plots/scenario_15_chunk_count_fac_4/plots/GeneratedMeanCurrentUploadBan
 dwidth.csv-eps-converted-to.pdf>]
@@ -1915,32 +1805,37 @@ ots/GeneratedMeanCurrentDownloadBandwidth.csv-eps-converted-to.pdf>
 k_count_fac_4/plots/GeneratedMeanCurrentDownloadBandwidth.csv-eps-converted-to.
 pdf fig/plots/scenario_15_chunk_count_fac_4/plots/GeneratedMeanCurrentDownloadB
 andwidth.csv.eps>
-(epstopdf)             \includegraphics on input line 221.
+(epstopdf)             \includegraphics on input line 209.
 Package epstopdf Info: Output file is already uptodate.
 
 <fig/plots/scenario_15_chunk_count_fac_4/plots/GeneratedMeanCurrentDownloadBand
-width.csv-eps-converted-to.pdf, id=991, 361.35pt x 252.945pt>
+width.csv-eps-converted-to.pdf, id=400, 361.35pt x 252.945pt>
 File: fig/plots/scenario_15_chunk_count_fac_4/plots/GeneratedMeanCurrentDownloa
 dBandwidth.csv-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig/plots/scenario_15_chunk_count_fac_4/plots/GeneratedMeanCurrentDownload
 Bandwidth.csv-eps-converted-to.pdf>
 Package pdftex.def Info: fig/plots/scenario_15_chunk_count_fac_4/plots/Generate
-dMeanCurrentDownloadBandwidth.csv-eps-converted-to.pdf used on input line 221.
+dMeanCurrentDownloadBandwidth.csv-eps-converted-to.pdf used on input line 209.
 (pdftex.def)             Requested size: 307.28987pt x 215.10461pt.
+
+Overfull \vbox (6.81798pt too high) detected at line 209
+ []
+
 File: fig/background_small.png Graphic file (type png)
- <use fig/background_small.png>
-Package pdftex.def Info: fig/background_small.png used on input line 221.
+<use fig/background_small.png>
+Package pdftex.def Info: fig/background_small.png used on input line 209.
 (pdftex.def)             Requested size: 364.19536pt x 272.78287pt.
- [30
+ [31
 
  <./fig/plots/scenario_15_chunk_count_fac_4/plots/GeneratedMeanCurrentDownloadB
 andwidth.csv-eps-converted-to.pdf>]
 File: fig/background_small.png Graphic file (type png)
- <use fig/background_small.png>
-Package pdftex.def Info: fig/background_small.png used on input line 239.
+
+<use fig/background_small.png>
+Package pdftex.def Info: fig/background_small.png used on input line 227.
 (pdftex.def)             Requested size: 364.19536pt x 272.78287pt.
- [31
+ [32
 
 ]
 Package epstopdf Info: Source file: <fig/plots/scenario_6_parts_20/plots/Genera
@@ -1954,24 +1849,28 @@ tedMeanChunkCompletion.csv-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=fig/plots/scenario_6_parts
 _20/plots/GeneratedMeanChunkCompletion.csv-eps-converted-to.pdf fig/plots/scena
 rio_6_parts_20/plots/GeneratedMeanChunkCompletion.csv.eps>
-(epstopdf)             \includegraphics on input line 249.
+(epstopdf)             \includegraphics on input line 237.
 Package epstopdf Info: Output file is already uptodate.
 
 <fig/plots/scenario_6_parts_20/plots/GeneratedMeanChunkCompletion.csv-eps-conve
-rted-to.pdf, id=1053, 361.35pt x 252.945pt>
+rted-to.pdf, id=424, 361.35pt x 252.945pt>
 File: fig/plots/scenario_6_parts_20/plots/GeneratedMeanChunkCompletion.csv-eps-
 converted-to.pdf Graphic file (type pdf)
 
 <use fig/plots/scenario_6_parts_20/plots/GeneratedMeanChunkCompletion.csv-eps-c
 onverted-to.pdf>
 Package pdftex.def Info: fig/plots/scenario_6_parts_20/plots/GeneratedMeanChunk
-Completion.csv-eps-converted-to.pdf used on input line 249.
+Completion.csv-eps-converted-to.pdf used on input line 237.
 (pdftex.def)             Requested size: 307.28987pt x 215.10461pt.
+
+Overfull \vbox (8.60898pt too high) detected at line 237
+ []
+
 File: fig/background_small.png Graphic file (type png)
- <use fig/background_small.png>
-Package pdftex.def Info: fig/background_small.png used on input line 249.
+<use fig/background_small.png>
+Package pdftex.def Info: fig/background_small.png used on input line 237.
 (pdftex.def)             Requested size: 364.19536pt x 272.78287pt.
- [32
+ [33
 
  <./fig/plots/scenario_6_parts_20/plots/GeneratedMeanChunkCompletion.csv-eps-co
 nverted-to.pdf>]
@@ -1987,24 +1886,28 @@ tedMeanCurrentSuperSeederUploadBandwidth.csv-eps-converted-to.pdf>
 _20/plots/GeneratedMeanCurrentSuperSeederUploadBandwidth.csv-eps-converted-to.p
 df fig/plots/scenario_6_parts_20/plots/GeneratedMeanCurrentSuperSeederUploadBan
 dwidth.csv.eps>
-(epstopdf)             \includegraphics on input line 259.
+(epstopdf)             \includegraphics on input line 247.
 Package epstopdf Info: Output file is already uptodate.
 
 <fig/plots/scenario_6_parts_20/plots/GeneratedMeanCurrentSuperSeederUploadBandw
-idth.csv-eps-converted-to.pdf, id=1086, 361.35pt x 252.945pt>
+idth.csv-eps-converted-to.pdf, id=438, 361.35pt x 252.945pt>
 File: fig/plots/scenario_6_parts_20/plots/GeneratedMeanCurrentSuperSeederUpload
 Bandwidth.csv-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig/plots/scenario_6_parts_20/plots/GeneratedMeanCurrentSuperSeederUploadB
 andwidth.csv-eps-converted-to.pdf>
 Package pdftex.def Info: fig/plots/scenario_6_parts_20/plots/GeneratedMeanCurre
-ntSuperSeederUploadBandwidth.csv-eps-converted-to.pdf used on input line 259.
+ntSuperSeederUploadBandwidth.csv-eps-converted-to.pdf used on input line 247.
 (pdftex.def)             Requested size: 307.28987pt x 215.10461pt.
+
+Overfull \vbox (8.60898pt too high) detected at line 247
+ []
+
 File: fig/background_small.png Graphic file (type png)
- <use fig/background_small.png>
-Package pdftex.def Info: fig/background_small.png used on input line 259.
+<use fig/background_small.png>
+Package pdftex.def Info: fig/background_small.png used on input line 247.
 (pdftex.def)             Requested size: 364.19536pt x 272.78287pt.
- [33
+ [34
 
  <./fig/plots/scenario_6_parts_20/plots/GeneratedMeanCurrentSuperSeederUploadBa
 ndwidth.csv-eps-converted-to.pdf>]
@@ -2019,24 +1922,28 @@ tedMeanCurrentUploadBandwidth.csv-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=fig/plots/scenario_6_parts
 _20/plots/GeneratedMeanCurrentUploadBandwidth.csv-eps-converted-to.pdf fig/plot
 s/scenario_6_parts_20/plots/GeneratedMeanCurrentUploadBandwidth.csv.eps>
-(epstopdf)             \includegraphics on input line 269.
+(epstopdf)             \includegraphics on input line 257.
 Package epstopdf Info: Output file is already uptodate.
 
 <fig/plots/scenario_6_parts_20/plots/GeneratedMeanCurrentUploadBandwidth.csv-ep
-s-converted-to.pdf, id=1119, 361.35pt x 252.945pt>
+s-converted-to.pdf, id=452, 361.35pt x 252.945pt>
 File: fig/plots/scenario_6_parts_20/plots/GeneratedMeanCurrentUploadBandwidth.c
 sv-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig/plots/scenario_6_parts_20/plots/GeneratedMeanCurrentUploadBandwidth.cs
 v-eps-converted-to.pdf>
 Package pdftex.def Info: fig/plots/scenario_6_parts_20/plots/GeneratedMeanCurre
-ntUploadBandwidth.csv-eps-converted-to.pdf used on input line 269.
+ntUploadBandwidth.csv-eps-converted-to.pdf used on input line 257.
 (pdftex.def)             Requested size: 307.28987pt x 215.10461pt.
+
+Overfull \vbox (8.60898pt too high) detected at line 257
+ []
+
 File: fig/background_small.png Graphic file (type png)
- <use fig/background_small.png>
-Package pdftex.def Info: fig/background_small.png used on input line 269.
+<use fig/background_small.png>
+Package pdftex.def Info: fig/background_small.png used on input line 257.
 (pdftex.def)             Requested size: 364.19536pt x 272.78287pt.
- [34
+ [35
 
  <./fig/plots/scenario_6_parts_20/plots/GeneratedMeanCurrentUploadBandwidth.csv
 -eps-converted-to.pdf>]
@@ -2051,32 +1958,37 @@ tedMeanCurrentDownloadBandwidth.csv-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=fig/plots/scenario_6_parts
 _20/plots/GeneratedMeanCurrentDownloadBandwidth.csv-eps-converted-to.pdf fig/pl
 ots/scenario_6_parts_20/plots/GeneratedMeanCurrentDownloadBandwidth.csv.eps>
-(epstopdf)             \includegraphics on input line 279.
+(epstopdf)             \includegraphics on input line 267.
 Package epstopdf Info: Output file is already uptodate.
 
 <fig/plots/scenario_6_parts_20/plots/GeneratedMeanCurrentDownloadBandwidth.csv-
-eps-converted-to.pdf, id=1153, 361.35pt x 252.945pt>
+eps-converted-to.pdf, id=466, 361.35pt x 252.945pt>
 File: fig/plots/scenario_6_parts_20/plots/GeneratedMeanCurrentDownloadBandwidth
 .csv-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig/plots/scenario_6_parts_20/plots/GeneratedMeanCurrentDownloadBandwidth.
 csv-eps-converted-to.pdf>
 Package pdftex.def Info: fig/plots/scenario_6_parts_20/plots/GeneratedMeanCurre
-ntDownloadBandwidth.csv-eps-converted-to.pdf used on input line 279.
+ntDownloadBandwidth.csv-eps-converted-to.pdf used on input line 267.
 (pdftex.def)             Requested size: 307.28987pt x 215.10461pt.
+
+Overfull \vbox (6.81798pt too high) detected at line 267
+ []
+
 File: fig/background_small.png Graphic file (type png)
- <use fig/background_small.png>
-Package pdftex.def Info: fig/background_small.png used on input line 279.
+<use fig/background_small.png>
+Package pdftex.def Info: fig/background_small.png used on input line 267.
 (pdftex.def)             Requested size: 364.19536pt x 272.78287pt.
- [35
+ [36
 
  <./fig/plots/scenario_6_parts_20/plots/GeneratedMeanCurrentDownloadBandwidth.c
 sv-eps-converted-to.pdf>]
 File: fig/background_small.png Graphic file (type png)
- <use fig/background_small.png>
-Package pdftex.def Info: fig/background_small.png used on input line 299.
+
+<use fig/background_small.png>
+Package pdftex.def Info: fig/background_small.png used on input line 287.
 (pdftex.def)             Requested size: 364.19536pt x 272.78287pt.
- [36
+ [37
 
 ]
 Package epstopdf Info: Source file: <fig/plots/scenario_2_seq/plots/GeneratedMe
@@ -2090,24 +2002,28 @@ anChunkCompletion.csv-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=fig/plots/scenario_2_seq/p
 lots/GeneratedMeanChunkCompletion.csv-eps-converted-to.pdf fig/plots/scenario_2
 _seq/plots/GeneratedMeanChunkCompletion.csv.eps>
-(epstopdf)             \includegraphics on input line 308.
+(epstopdf)             \includegraphics on input line 296.
 Package epstopdf Info: Output file is already uptodate.
 
 <fig/plots/scenario_2_seq/plots/GeneratedMeanChunkCompletion.csv-eps-converted-
-to.pdf, id=1213, 361.35pt x 252.945pt>
+to.pdf, id=489, 361.35pt x 252.945pt>
 File: fig/plots/scenario_2_seq/plots/GeneratedMeanChunkCompletion.csv-eps-conve
 rted-to.pdf Graphic file (type pdf)
 
 <use fig/plots/scenario_2_seq/plots/GeneratedMeanChunkCompletion.csv-eps-conver
 ted-to.pdf>
 Package pdftex.def Info: fig/plots/scenario_2_seq/plots/GeneratedMeanChunkCompl
-etion.csv-eps-converted-to.pdf used on input line 308.
+etion.csv-eps-converted-to.pdf used on input line 296.
 (pdftex.def)             Requested size: 307.28987pt x 215.10461pt.
+
+Overfull \vbox (8.60898pt too high) detected at line 296
+ []
+
 File: fig/background_small.png Graphic file (type png)
- <use fig/background_small.png>
-Package pdftex.def Info: fig/background_small.png used on input line 308.
+<use fig/background_small.png>
+Package pdftex.def Info: fig/background_small.png used on input line 296.
 (pdftex.def)             Requested size: 364.19536pt x 272.78287pt.
- [37
+ [38
 
  <./fig/plots/scenario_2_seq/plots/GeneratedMeanChunkCompletion.csv-eps-convert
 ed-to.pdf>]
@@ -2123,24 +2039,28 @@ anCurrentSuperSeederUploadBandwidth.csv-eps-converted-to.pdf>
 lots/GeneratedMeanCurrentSuperSeederUploadBandwidth.csv-eps-converted-to.pdf fi
 g/plots/scenario_2_seq/plots/GeneratedMeanCurrentSuperSeederUploadBandwidth.csv
 .eps>
-(epstopdf)             \includegraphics on input line 317.
+(epstopdf)             \includegraphics on input line 305.
 Package epstopdf Info: Output file is already uptodate.
 
 <fig/plots/scenario_2_seq/plots/GeneratedMeanCurrentSuperSeederUploadBandwidth.
-csv-eps-converted-to.pdf, id=1248, 361.35pt x 252.945pt>
+csv-eps-converted-to.pdf, id=503, 361.35pt x 252.945pt>
 File: fig/plots/scenario_2_seq/plots/GeneratedMeanCurrentSuperSeederUploadBandw
 idth.csv-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig/plots/scenario_2_seq/plots/GeneratedMeanCurrentSuperSeederUploadBandwi
 dth.csv-eps-converted-to.pdf>
 Package pdftex.def Info: fig/plots/scenario_2_seq/plots/GeneratedMeanCurrentSup
-erSeederUploadBandwidth.csv-eps-converted-to.pdf used on input line 317.
+erSeederUploadBandwidth.csv-eps-converted-to.pdf used on input line 305.
 (pdftex.def)             Requested size: 307.28987pt x 215.10461pt.
+
+Overfull \vbox (8.60898pt too high) detected at line 305
+ []
+
 File: fig/background_small.png Graphic file (type png)
- <use fig/background_small.png>
-Package pdftex.def Info: fig/background_small.png used on input line 317.
+<use fig/background_small.png>
+Package pdftex.def Info: fig/background_small.png used on input line 305.
 (pdftex.def)             Requested size: 364.19536pt x 272.78287pt.
- [38
+ [39
 
  <./fig/plots/scenario_2_seq/plots/GeneratedMeanCurrentSuperSeederUploadBandwid
 th.csv-eps-converted-to.pdf>]
@@ -2155,858 +2075,62 @@ anCurrentDownloadBandwidth.csv-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=fig/plots/scenario_2_seq/p
 lots/GeneratedMeanCurrentDownloadBandwidth.csv-eps-converted-to.pdf fig/plots/s
 cenario_2_seq/plots/GeneratedMeanCurrentDownloadBandwidth.csv.eps>
-(epstopdf)             \includegraphics on input line 326.
+(epstopdf)             \includegraphics on input line 314.
 Package epstopdf Info: Output file is already uptodate.
 
 <fig/plots/scenario_2_seq/plots/GeneratedMeanCurrentDownloadBandwidth.csv-eps-c
-onverted-to.pdf, id=1281, 361.35pt x 252.945pt>
+onverted-to.pdf, id=517, 361.35pt x 252.945pt>
 File: fig/plots/scenario_2_seq/plots/GeneratedMeanCurrentDownloadBandwidth.csv-
 eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig/plots/scenario_2_seq/plots/GeneratedMeanCurrentDownloadBandwidth.csv-e
 ps-converted-to.pdf>
 Package pdftex.def Info: fig/plots/scenario_2_seq/plots/GeneratedMeanCurrentDow
-nloadBandwidth.csv-eps-converted-to.pdf used on input line 326.
+nloadBandwidth.csv-eps-converted-to.pdf used on input line 314.
 (pdftex.def)             Requested size: 307.28987pt x 215.10461pt.
+
+Overfull \vbox (6.81798pt too high) detected at line 314
+ []
+
 File: fig/background_small.png Graphic file (type png)
- <use fig/background_small.png>
-Package pdftex.def Info: fig/background_small.png used on input line 326.
+<use fig/background_small.png>
+Package pdftex.def Info: fig/background_small.png used on input line 314.
 (pdftex.def)             Requested size: 364.19536pt x 272.78287pt.
- [39
+ [40
 
  <./fig/plots/scenario_2_seq/plots/GeneratedMeanCurrentDownloadBandwidth.csv-ep
 s-converted-to.pdf>]
 File: fig/background_small.png Graphic file (type png)
 
 <use fig/background_small.png>
-Package pdftex.def Info: fig/background_small.png used on input line 342.
-(pdftex.def)             Requested size: 364.19536pt x 272.78287pt.
- [40
-
-]
-File: fig/background_small.png Graphic file (type png)
- <use fig/background_small.png>
-Package pdftex.def Info: fig/background_small.png used on input line 356.
+Package pdftex.def Info: fig/background_small.png used on input line 330.
 (pdftex.def)             Requested size: 364.19536pt x 272.78287pt.
  [41
 
 ]
 File: fig/background_small.png Graphic file (type png)
-
-<use fig/background_small.png>
-Package pdftex.def Info: fig/background_small.png used on input line 365.
+ <use fig/background_small.png>
+Package pdftex.def Info: fig/background_small.png used on input line 344.
 (pdftex.def)             Requested size: 364.19536pt x 272.78287pt.
  [42
 
-]) (./inhalt-anhang.tex
-File: fig/background_small.png Graphic file (type png)
-
-<use fig/background_small.png>
-Package pdftex.def Info: fig/background_small.png used on input line 11.
+])
+(./anhang.tex (./master.toc)
+File: fig/background.png Graphic file (type png)
+ <use fig/background.png>
+Package pdftex.def Info: fig/background.png used on input line 1.
 (pdftex.def)             Requested size: 364.19536pt x 272.78287pt.
  [43
 
 ]
 File: fig/background_small.png Graphic file (type png)
- <use fig/background_small.png>
-Package pdftex.def Info: fig/background_small.png used on input line 28.
+
+<use fig/background_small.png>
+Package pdftex.def Info: fig/background_small.png used on input line 18.
 (pdftex.def)             Requested size: 364.19536pt x 272.78287pt.
  [44
 
-]
-Package epstopdf Info: Source file: <fig/plots/scenario_3_log/plots/GeneratedMe
-anChunkCompletion.csv.eps>
-(epstopdf)                    date: 2014-11-20 14:59:19
-(epstopdf)                    size: 41554 bytes
-(epstopdf)             Output file: <fig/plots/scenario_3_log/plots/GeneratedMe
-anChunkCompletion.csv-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-11-20 14:59:19
-(epstopdf)                    size: 6016 bytes
-(epstopdf)             Command: <repstopdf --outfile=fig/plots/scenario_3_log/p
-lots/GeneratedMeanChunkCompletion.csv-eps-converted-to.pdf fig/plots/scenario_3
-_log/plots/GeneratedMeanChunkCompletion.csv.eps>
-(epstopdf)             \includegraphics on input line 37.
-Package epstopdf Info: Output file is already uptodate.
-
-<fig/plots/scenario_3_log/plots/GeneratedMeanChunkCompletion.csv-eps-converted-
-to.pdf, id=1449, 361.35pt x 252.945pt>
-File: fig/plots/scenario_3_log/plots/GeneratedMeanChunkCompletion.csv-eps-conve
-rted-to.pdf Graphic file (type pdf)
-
-<use fig/plots/scenario_3_log/plots/GeneratedMeanChunkCompletion.csv-eps-conver
-ted-to.pdf>
-Package pdftex.def Info: fig/plots/scenario_3_log/plots/GeneratedMeanChunkCompl
-etion.csv-eps-converted-to.pdf used on input line 37.
-(pdftex.def)             Requested size: 307.28987pt x 215.10461pt.
-File: fig/background_small.png Graphic file (type png)
- <use fig/background_small.png>
-Package pdftex.def Info: fig/background_small.png used on input line 37.
-(pdftex.def)             Requested size: 364.19536pt x 272.78287pt.
- [45
-
- <./fig/plots/scenario_3_log/plots/GeneratedMeanChunkCompletion.csv-eps-convert
-ed-to.pdf>]
-Package epstopdf Info: Source file: <fig/plots/scenario_3_log/plots/GeneratedMe
-anCurrentSuperSeederUploadBandwidth.csv.eps>
-(epstopdf)                    date: 2014-11-20 14:59:19
-(epstopdf)                    size: 42386 bytes
-(epstopdf)             Output file: <fig/plots/scenario_3_log/plots/GeneratedMe
-anCurrentSuperSeederUploadBandwidth.csv-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-11-20 14:59:19
-(epstopdf)                    size: 11545 bytes
-(epstopdf)             Command: <repstopdf --outfile=fig/plots/scenario_3_log/p
-lots/GeneratedMeanCurrentSuperSeederUploadBandwidth.csv-eps-converted-to.pdf fi
-g/plots/scenario_3_log/plots/GeneratedMeanCurrentSuperSeederUploadBandwidth.csv
-.eps>
-(epstopdf)             \includegraphics on input line 47.
-Package epstopdf Info: Output file is already uptodate.
-
-<fig/plots/scenario_3_log/plots/GeneratedMeanCurrentSuperSeederUploadBandwidth.
-csv-eps-converted-to.pdf, id=1483, 361.35pt x 252.945pt>
-File: fig/plots/scenario_3_log/plots/GeneratedMeanCurrentSuperSeederUploadBandw
-idth.csv-eps-converted-to.pdf Graphic file (type pdf)
-
-<use fig/plots/scenario_3_log/plots/GeneratedMeanCurrentSuperSeederUploadBandwi
-dth.csv-eps-converted-to.pdf>
-Package pdftex.def Info: fig/plots/scenario_3_log/plots/GeneratedMeanCurrentSup
-erSeederUploadBandwidth.csv-eps-converted-to.pdf used on input line 47.
-(pdftex.def)             Requested size: 307.28987pt x 215.10461pt.
-File: fig/background_small.png Graphic file (type png)
- <use fig/background_small.png>
-Package pdftex.def Info: fig/background_small.png used on input line 47.
-(pdftex.def)             Requested size: 364.19536pt x 272.78287pt.
- [46
-
- <./fig/plots/scenario_3_log/plots/GeneratedMeanCurrentSuperSeederUploadBandwid
-th.csv-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <fig/plots/scenario_3_log/plots/GeneratedMe
-anCurrentUploadBandwidth.csv.eps>
-(epstopdf)                    date: 2014-11-20 14:59:19
-(epstopdf)                    size: 41720 bytes
-(epstopdf)             Output file: <fig/plots/scenario_3_log/plots/GeneratedMe
-anCurrentUploadBandwidth.csv-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-11-20 14:59:19
-(epstopdf)                    size: 9399 bytes
-(epstopdf)             Command: <repstopdf --outfile=fig/plots/scenario_3_log/p
-lots/GeneratedMeanCurrentUploadBandwidth.csv-eps-converted-to.pdf fig/plots/sce
-nario_3_log/plots/GeneratedMeanCurrentUploadBandwidth.csv.eps>
-(epstopdf)             \includegraphics on input line 57.
-Package epstopdf Info: Output file is already uptodate.
-
-<fig/plots/scenario_3_log/plots/GeneratedMeanCurrentUploadBandwidth.csv-eps-con
-verted-to.pdf, id=1516, 361.35pt x 252.945pt>
-File: fig/plots/scenario_3_log/plots/GeneratedMeanCurrentUploadBandwidth.csv-ep
-s-converted-to.pdf Graphic file (type pdf)
-
-<use fig/plots/scenario_3_log/plots/GeneratedMeanCurrentUploadBandwidth.csv-eps
--converted-to.pdf>
-Package pdftex.def Info: fig/plots/scenario_3_log/plots/GeneratedMeanCurrentUpl
-oadBandwidth.csv-eps-converted-to.pdf used on input line 57.
-(pdftex.def)             Requested size: 307.28987pt x 215.10461pt.
-File: fig/background_small.png Graphic file (type png)
- <use fig/background_small.png>
-Package pdftex.def Info: fig/background_small.png used on input line 57.
-(pdftex.def)             Requested size: 364.19536pt x 272.78287pt.
- [47
-
- <./fig/plots/scenario_3_log/plots/GeneratedMeanCurrentUploadBandwidth.csv-eps-
-converted-to.pdf>]
-Package epstopdf Info: Source file: <fig/plots/scenario_3_log/plots/GeneratedMe
-anCurrentDownloadBandwidth.csv.eps>
-(epstopdf)                    date: 2014-11-20 14:59:19
-(epstopdf)                    size: 41892 bytes
-(epstopdf)             Output file: <fig/plots/scenario_3_log/plots/GeneratedMe
-anCurrentDownloadBandwidth.csv-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-11-20 14:59:19
-(epstopdf)                    size: 10223 bytes
-(epstopdf)             Command: <repstopdf --outfile=fig/plots/scenario_3_log/p
-lots/GeneratedMeanCurrentDownloadBandwidth.csv-eps-converted-to.pdf fig/plots/s
-cenario_3_log/plots/GeneratedMeanCurrentDownloadBandwidth.csv.eps>
-(epstopdf)             \includegraphics on input line 67.
-Package epstopdf Info: Output file is already uptodate.
-
-<fig/plots/scenario_3_log/plots/GeneratedMeanCurrentDownloadBandwidth.csv-eps-c
-onverted-to.pdf, id=1549, 361.35pt x 252.945pt>
-File: fig/plots/scenario_3_log/plots/GeneratedMeanCurrentDownloadBandwidth.csv-
-eps-converted-to.pdf Graphic file (type pdf)
-
-<use fig/plots/scenario_3_log/plots/GeneratedMeanCurrentDownloadBandwidth.csv-e
-ps-converted-to.pdf>
-Package pdftex.def Info: fig/plots/scenario_3_log/plots/GeneratedMeanCurrentDow
-nloadBandwidth.csv-eps-converted-to.pdf used on input line 67.
-(pdftex.def)             Requested size: 307.28987pt x 215.10461pt.
-File: fig/background_small.png Graphic file (type png)
- <use fig/background_small.png>
-Package pdftex.def Info: fig/background_small.png used on input line 67.
-(pdftex.def)             Requested size: 364.19536pt x 272.78287pt.
- [48
-
- <./fig/plots/scenario_3_log/plots/GeneratedMeanCurrentDownloadBandwidth.csv-ep
-s-converted-to.pdf>]
-Package epstopdf Info: Source file: <fig/plots/scenario_5_meta_data_0/plots/Gen
-eratedMeanChunkCompletion.csv.eps>
-(epstopdf)                    date: 2014-11-20 14:59:19
-(epstopdf)                    size: 60475 bytes
-(epstopdf)             Output file: <fig/plots/scenario_5_meta_data_0/plots/Gen
-eratedMeanChunkCompletion.csv-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-11-20 14:59:19
-(epstopdf)                    size: 11252 bytes
-(epstopdf)             Command: <repstopdf --outfile=fig/plots/scenario_5_meta_
-data_0/plots/GeneratedMeanChunkCompletion.csv-eps-converted-to.pdf fig/plots/sc
-enario_5_meta_data_0/plots/GeneratedMeanChunkCompletion.csv.eps>
-(epstopdf)             \includegraphics on input line 82.
-Package epstopdf Info: Output file is already uptodate.
-
-<fig/plots/scenario_5_meta_data_0/plots/GeneratedMeanChunkCompletion.csv-eps-co
-nverted-to.pdf, id=1583, 361.35pt x 252.945pt>
-File: fig/plots/scenario_5_meta_data_0/plots/GeneratedMeanChunkCompletion.csv-e
-ps-converted-to.pdf Graphic file (type pdf)
-
-<use fig/plots/scenario_5_meta_data_0/plots/GeneratedMeanChunkCompletion.csv-ep
-s-converted-to.pdf>
-Package pdftex.def Info: fig/plots/scenario_5_meta_data_0/plots/GeneratedMeanCh
-unkCompletion.csv-eps-converted-to.pdf used on input line 82.
-(pdftex.def)             Requested size: 307.28987pt x 215.10461pt.
-File: fig/background_small.png Graphic file (type png)
- <use fig/background_small.png>
-Package pdftex.def Info: fig/background_small.png used on input line 82.
-(pdftex.def)             Requested size: 364.19536pt x 272.78287pt.
- [49
-
- <./fig/plots/scenario_5_meta_data_0/plots/GeneratedMeanChunkCompletion.csv-eps
--converted-to.pdf>]
-Package epstopdf Info: Source file: <fig/plots/scenario_5_meta_data_0/plots/Gen
-eratedMeanCurrentSuperSeederUploadBandwidth.csv.eps>
-(epstopdf)                    date: 2014-11-20 14:59:19
-(epstopdf)                    size: 61661 bytes
-(epstopdf)             Output file: <fig/plots/scenario_5_meta_data_0/plots/Gen
-eratedMeanCurrentSuperSeederUploadBandwidth.csv-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-11-20 14:59:19
-(epstopdf)                    size: 16528 bytes
-(epstopdf)             Command: <repstopdf --outfile=fig/plots/scenario_5_meta_
-data_0/plots/GeneratedMeanCurrentSuperSeederUploadBandwidth.csv-eps-converted-t
-o.pdf fig/plots/scenario_5_meta_data_0/plots/GeneratedMeanCurrentSuperSeederUpl
-oadBandwidth.csv.eps>
-(epstopdf)             \includegraphics on input line 92.
-Package epstopdf Info: Output file is already uptodate.
-
-<fig/plots/scenario_5_meta_data_0/plots/GeneratedMeanCurrentSuperSeederUploadBa
-ndwidth.csv-eps-converted-to.pdf, id=1617, 361.35pt x 252.945pt>
-File: fig/plots/scenario_5_meta_data_0/plots/GeneratedMeanCurrentSuperSeederUpl
-oadBandwidth.csv-eps-converted-to.pdf Graphic file (type pdf)
-
-<use fig/plots/scenario_5_meta_data_0/plots/GeneratedMeanCurrentSuperSeederUplo
-adBandwidth.csv-eps-converted-to.pdf>
-Package pdftex.def Info: fig/plots/scenario_5_meta_data_0/plots/GeneratedMeanCu
-rrentSuperSeederUploadBandwidth.csv-eps-converted-to.pdf used on input line 92.
-
-(pdftex.def)             Requested size: 307.28987pt x 215.10461pt.
-File: fig/background_small.png Graphic file (type png)
- <use fig/background_small.png>
-Package pdftex.def Info: fig/background_small.png used on input line 92.
-(pdftex.def)             Requested size: 364.19536pt x 272.78287pt.
- [50
-
- <./fig/plots/scenario_5_meta_data_0/plots/GeneratedMeanCurrentSuperSeederUploa
-dBandwidth.csv-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <fig/plots/scenario_5_meta_data_0/plots/Gen
-eratedMeanCurrentUploadBandwidth.csv.eps>
-(epstopdf)                    date: 2014-11-20 14:59:19
-(epstopdf)                    size: 62598 bytes
-(epstopdf)             Output file: <fig/plots/scenario_5_meta_data_0/plots/Gen
-eratedMeanCurrentUploadBandwidth.csv-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-11-20 14:59:19
-(epstopdf)                    size: 18279 bytes
-(epstopdf)             Command: <repstopdf --outfile=fig/plots/scenario_5_meta_
-data_0/plots/GeneratedMeanCurrentUploadBandwidth.csv-eps-converted-to.pdf fig/p
-lots/scenario_5_meta_data_0/plots/GeneratedMeanCurrentUploadBandwidth.csv.eps>
-(epstopdf)             \includegraphics on input line 102.
-Package epstopdf Info: Output file is already uptodate.
-
-<fig/plots/scenario_5_meta_data_0/plots/GeneratedMeanCurrentUploadBandwidth.csv
--eps-converted-to.pdf, id=1650, 361.35pt x 252.945pt>
-File: fig/plots/scenario_5_meta_data_0/plots/GeneratedMeanCurrentUploadBandwidt
-h.csv-eps-converted-to.pdf Graphic file (type pdf)
-
-<use fig/plots/scenario_5_meta_data_0/plots/GeneratedMeanCurrentUploadBandwidth
-.csv-eps-converted-to.pdf>
-Package pdftex.def Info: fig/plots/scenario_5_meta_data_0/plots/GeneratedMeanCu
-rrentUploadBandwidth.csv-eps-converted-to.pdf used on input line 102.
-(pdftex.def)             Requested size: 307.28987pt x 215.10461pt.
-File: fig/background_small.png Graphic file (type png)
- <use fig/background_small.png>
-Package pdftex.def Info: fig/background_small.png used on input line 102.
-(pdftex.def)             Requested size: 364.19536pt x 272.78287pt.
- [51
-
- <./fig/plots/scenario_5_meta_data_0/plots/GeneratedMeanCurrentUploadBandwidth.
-csv-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <fig/plots/scenario_5_meta_data_0/plots/Gen
-eratedMeanCurrentDownloadBandwidth.csv.eps>
-(epstopdf)                    date: 2014-11-20 14:59:19
-(epstopdf)                    size: 63006 bytes
-(epstopdf)             Output file: <fig/plots/scenario_5_meta_data_0/plots/Gen
-eratedMeanCurrentDownloadBandwidth.csv-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-11-20 14:59:19
-(epstopdf)                    size: 19338 bytes
-(epstopdf)             Command: <repstopdf --outfile=fig/plots/scenario_5_meta_
-data_0/plots/GeneratedMeanCurrentDownloadBandwidth.csv-eps-converted-to.pdf fig
-/plots/scenario_5_meta_data_0/plots/GeneratedMeanCurrentDownloadBandwidth.csv.e
-ps>
-(epstopdf)             \includegraphics on input line 112.
-Package epstopdf Info: Output file is already uptodate.
-
-<fig/plots/scenario_5_meta_data_0/plots/GeneratedMeanCurrentDownloadBandwidth.c
-sv-eps-converted-to.pdf, id=1684, 361.35pt x 252.945pt>
-File: fig/plots/scenario_5_meta_data_0/plots/GeneratedMeanCurrentDownloadBandwi
-dth.csv-eps-converted-to.pdf Graphic file (type pdf)
-
-<use fig/plots/scenario_5_meta_data_0/plots/GeneratedMeanCurrentDownloadBandwid
-th.csv-eps-converted-to.pdf>
-Package pdftex.def Info: fig/plots/scenario_5_meta_data_0/plots/GeneratedMeanCu
-rrentDownloadBandwidth.csv-eps-converted-to.pdf used on input line 112.
-(pdftex.def)             Requested size: 307.28987pt x 215.10461pt.
-File: fig/background_small.png Graphic file (type png)
- <use fig/background_small.png>
-Package pdftex.def Info: fig/background_small.png used on input line 112.
-(pdftex.def)             Requested size: 364.19536pt x 272.78287pt.
- [52
-
- <./fig/plots/scenario_5_meta_data_0/plots/GeneratedMeanCurrentDownloadBandwidt
-h.csv-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <fig/plots/scenario_10_meta_data_10/plots/G
-eneratedMeanChunkCompletion.csv.eps>
-(epstopdf)                    date: 2014-11-20 14:59:18
-(epstopdf)                    size: 60603 bytes
-(epstopdf)             Output file: <fig/plots/scenario_10_meta_data_10/plots/G
-eneratedMeanChunkCompletion.csv-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-11-20 14:59:18
-(epstopdf)                    size: 11818 bytes
-(epstopdf)             Command: <repstopdf --outfile=fig/plots/scenario_10_meta
-_data_10/plots/GeneratedMeanChunkCompletion.csv-eps-converted-to.pdf fig/plots/
-scenario_10_meta_data_10/plots/GeneratedMeanChunkCompletion.csv.eps>
-(epstopdf)             \includegraphics on input line 126.
-Package epstopdf Info: Output file is already uptodate.
-
-<fig/plots/scenario_10_meta_data_10/plots/GeneratedMeanChunkCompletion.csv-eps-
-converted-to.pdf, id=1717, 361.35pt x 252.945pt>
-File: fig/plots/scenario_10_meta_data_10/plots/GeneratedMeanChunkCompletion.csv
--eps-converted-to.pdf Graphic file (type pdf)
-
-<use fig/plots/scenario_10_meta_data_10/plots/GeneratedMeanChunkCompletion.csv-
-eps-converted-to.pdf>
-Package pdftex.def Info: fig/plots/scenario_10_meta_data_10/plots/GeneratedMean
-ChunkCompletion.csv-eps-converted-to.pdf used on input line 126.
-(pdftex.def)             Requested size: 307.28987pt x 215.10461pt.
-File: fig/background_small.png Graphic file (type png)
- <use fig/background_small.png>
-Package pdftex.def Info: fig/background_small.png used on input line 126.
-(pdftex.def)             Requested size: 364.19536pt x 272.78287pt.
- [53
-
- <./fig/plots/scenario_10_meta_data_10/plots/GeneratedMeanChunkCompletion.csv-e
-ps-converted-to.pdf>]
-Package epstopdf Info: Source file: <fig/plots/scenario_10_meta_data_10/plots/G
-eneratedMeanCurrentSuperSeederUploadBandwidth.csv.eps>
-(epstopdf)                    date: 2014-11-20 14:59:18
-(epstopdf)                    size: 61734 bytes
-(epstopdf)             Output file: <fig/plots/scenario_10_meta_data_10/plots/G
-eneratedMeanCurrentSuperSeederUploadBandwidth.csv-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-11-20 14:59:18
-(epstopdf)                    size: 16570 bytes
-(epstopdf)             Command: <repstopdf --outfile=fig/plots/scenario_10_meta
-_data_10/plots/GeneratedMeanCurrentSuperSeederUploadBandwidth.csv-eps-converted
--to.pdf fig/plots/scenario_10_meta_data_10/plots/GeneratedMeanCurrentSuperSeede
-rUploadBandwidth.csv.eps>
-(epstopdf)             \includegraphics on input line 136.
-Package epstopdf Info: Output file is already uptodate.
-
-<fig/plots/scenario_10_meta_data_10/plots/GeneratedMeanCurrentSuperSeederUpload
-Bandwidth.csv-eps-converted-to.pdf, id=1750, 361.35pt x 252.945pt>
-File: fig/plots/scenario_10_meta_data_10/plots/GeneratedMeanCurrentSuperSeederU
-ploadBandwidth.csv-eps-converted-to.pdf Graphic file (type pdf)
-
-<use fig/plots/scenario_10_meta_data_10/plots/GeneratedMeanCurrentSuperSeederUp
-loadBandwidth.csv-eps-converted-to.pdf>
-Package pdftex.def Info: fig/plots/scenario_10_meta_data_10/plots/GeneratedMean
-CurrentSuperSeederUploadBandwidth.csv-eps-converted-to.pdf used on input line 1
-36.
-(pdftex.def)             Requested size: 307.28987pt x 215.10461pt.
-File: fig/background_small.png Graphic file (type png)
- <use fig/background_small.png>
-Package pdftex.def Info: fig/background_small.png used on input line 136.
-(pdftex.def)             Requested size: 364.19536pt x 272.78287pt.
- [54
-
- <./fig/plots/scenario_10_meta_data_10/plots/GeneratedMeanCurrentSuperSeederUpl
-oadBandwidth.csv-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <fig/plots/scenario_10_meta_data_10/plots/G
-eneratedMeanCurrentUploadBandwidth.csv.eps>
-(epstopdf)                    date: 2014-11-20 14:59:18
-(epstopdf)                    size: 62689 bytes
-(epstopdf)             Output file: <fig/plots/scenario_10_meta_data_10/plots/G
-eneratedMeanCurrentUploadBandwidth.csv-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-11-20 14:59:18
-(epstopdf)                    size: 18577 bytes
-(epstopdf)             Command: <repstopdf --outfile=fig/plots/scenario_10_meta
-_data_10/plots/GeneratedMeanCurrentUploadBandwidth.csv-eps-converted-to.pdf fig
-/plots/scenario_10_meta_data_10/plots/GeneratedMeanCurrentUploadBandwidth.csv.e
-ps>
-(epstopdf)             \includegraphics on input line 146.
-Package epstopdf Info: Output file is already uptodate.
-
-<fig/plots/scenario_10_meta_data_10/plots/GeneratedMeanCurrentUploadBandwidth.c
-sv-eps-converted-to.pdf, id=1783, 361.35pt x 252.945pt>
-File: fig/plots/scenario_10_meta_data_10/plots/GeneratedMeanCurrentUploadBandwi
-dth.csv-eps-converted-to.pdf Graphic file (type pdf)
-
-<use fig/plots/scenario_10_meta_data_10/plots/GeneratedMeanCurrentUploadBandwid
-th.csv-eps-converted-to.pdf>
-Package pdftex.def Info: fig/plots/scenario_10_meta_data_10/plots/GeneratedMean
-CurrentUploadBandwidth.csv-eps-converted-to.pdf used on input line 146.
-(pdftex.def)             Requested size: 307.28987pt x 215.10461pt.
-File: fig/background_small.png Graphic file (type png)
- <use fig/background_small.png>
-Package pdftex.def Info: fig/background_small.png used on input line 146.
-(pdftex.def)             Requested size: 364.19536pt x 272.78287pt.
- [55
-
- <./fig/plots/scenario_10_meta_data_10/plots/GeneratedMeanCurrentUploadBandwidt
-h.csv-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <fig/plots/scenario_10_meta_data_10/plots/G
-eneratedMeanCurrentDownloadBandwidth.csv.eps>
-(epstopdf)                    date: 2014-11-20 14:59:18
-(epstopdf)                    size: 63404 bytes
-(epstopdf)             Output file: <fig/plots/scenario_10_meta_data_10/plots/G
-eneratedMeanCurrentDownloadBandwidth.csv-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-11-20 14:59:18
-(epstopdf)                    size: 19925 bytes
-(epstopdf)             Command: <repstopdf --outfile=fig/plots/scenario_10_meta
-_data_10/plots/GeneratedMeanCurrentDownloadBandwidth.csv-eps-converted-to.pdf f
-ig/plots/scenario_10_meta_data_10/plots/GeneratedMeanCurrentDownloadBandwidth.c
-sv.eps>
-(epstopdf)             \includegraphics on input line 156.
-Package epstopdf Info: Output file is already uptodate.
-
-<fig/plots/scenario_10_meta_data_10/plots/GeneratedMeanCurrentDownloadBandwidth
-.csv-eps-converted-to.pdf, id=1818, 361.35pt x 252.945pt>
-File: fig/plots/scenario_10_meta_data_10/plots/GeneratedMeanCurrentDownloadBand
-width.csv-eps-converted-to.pdf Graphic file (type pdf)
-
-<use fig/plots/scenario_10_meta_data_10/plots/GeneratedMeanCurrentDownloadBandw
-idth.csv-eps-converted-to.pdf>
-Package pdftex.def Info: fig/plots/scenario_10_meta_data_10/plots/GeneratedMean
-CurrentDownloadBandwidth.csv-eps-converted-to.pdf used on input line 156.
-(pdftex.def)             Requested size: 307.28987pt x 215.10461pt.
-File: fig/background_small.png Graphic file (type png)
- <use fig/background_small.png>
-Package pdftex.def Info: fig/background_small.png used on input line 156.
-(pdftex.def)             Requested size: 364.19536pt x 272.78287pt.
- [56
-
- <./fig/plots/scenario_10_meta_data_10/plots/GeneratedMeanCurrentDownloadBandwi
-dth.csv-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <fig/plots/scenario_7_chunk_count_fac_1/plo
-ts/GeneratedMeanChunkCompletion.csv.eps>
-(epstopdf)                    date: 2014-11-20 14:59:19
-(epstopdf)                    size: 72144 bytes
-(epstopdf)             Output file: <fig/plots/scenario_7_chunk_count_fac_1/plo
-ts/GeneratedMeanChunkCompletion.csv-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-11-20 14:59:19
-(epstopdf)                    size: 10998 bytes
-(epstopdf)             Command: <repstopdf --outfile=fig/plots/scenario_7_chunk
-_count_fac_1/plots/GeneratedMeanChunkCompletion.csv-eps-converted-to.pdf fig/pl
-ots/scenario_7_chunk_count_fac_1/plots/GeneratedMeanChunkCompletion.csv.eps>
-(epstopdf)             \includegraphics on input line 169.
-Package epstopdf Info: Output file is already uptodate.
-
-<fig/plots/scenario_7_chunk_count_fac_1/plots/GeneratedMeanChunkCompletion.csv-
-eps-converted-to.pdf, id=1851, 361.35pt x 252.945pt>
-File: fig/plots/scenario_7_chunk_count_fac_1/plots/GeneratedMeanChunkCompletion
-.csv-eps-converted-to.pdf Graphic file (type pdf)
-
-<use fig/plots/scenario_7_chunk_count_fac_1/plots/GeneratedMeanChunkCompletion.
-csv-eps-converted-to.pdf>
-Package pdftex.def Info: fig/plots/scenario_7_chunk_count_fac_1/plots/Generated
-MeanChunkCompletion.csv-eps-converted-to.pdf used on input line 169.
-(pdftex.def)             Requested size: 307.28987pt x 215.10461pt.
-File: fig/background_small.png Graphic file (type png)
- <use fig/background_small.png>
-Package pdftex.def Info: fig/background_small.png used on input line 169.
-(pdftex.def)             Requested size: 364.19536pt x 272.78287pt.
- [57
-
- <./fig/plots/scenario_7_chunk_count_fac_1/plots/GeneratedMeanChunkCompletion.c
-sv-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <fig/plots/scenario_7_chunk_count_fac_1/plo
-ts/GeneratedMeanCurrentSuperSeederUploadBandwidth.csv.eps>
-(epstopdf)                    date: 2014-11-20 14:59:20
-(epstopdf)                    size: 74040 bytes
-(epstopdf)             Output file: <fig/plots/scenario_7_chunk_count_fac_1/plo
-ts/GeneratedMeanCurrentSuperSeederUploadBandwidth.csv-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-11-26 11:40:15
-(epstopdf)                    size: 17854 bytes
-(epstopdf)             Command: <repstopdf --outfile=fig/plots/scenario_7_chunk
-_count_fac_1/plots/GeneratedMeanCurrentSuperSeederUploadBandwidth.csv-eps-conve
-rted-to.pdf fig/plots/scenario_7_chunk_count_fac_1/plots/GeneratedMeanCurrentSu
-perSeederUploadBandwidth.csv.eps>
-(epstopdf)             \includegraphics on input line 179.
-Package epstopdf Info: Output file is already uptodate.
-
-<fig/plots/scenario_7_chunk_count_fac_1/plots/GeneratedMeanCurrentSuperSeederUp
-loadBandwidth.csv-eps-converted-to.pdf, id=1884, 361.35pt x 252.945pt>
-File: fig/plots/scenario_7_chunk_count_fac_1/plots/GeneratedMeanCurrentSuperSee
-derUploadBandwidth.csv-eps-converted-to.pdf Graphic file (type pdf)
-
-<use fig/plots/scenario_7_chunk_count_fac_1/plots/GeneratedMeanCurrentSuperSeed
-erUploadBandwidth.csv-eps-converted-to.pdf>
-Package pdftex.def Info: fig/plots/scenario_7_chunk_count_fac_1/plots/Generated
-MeanCurrentSuperSeederUploadBandwidth.csv-eps-converted-to.pdf used on input li
-ne 179.
-(pdftex.def)             Requested size: 307.28987pt x 215.10461pt.
-File: fig/background_small.png Graphic file (type png)
- <use fig/background_small.png>
-Package pdftex.def Info: fig/background_small.png used on input line 179.
-(pdftex.def)             Requested size: 364.19536pt x 272.78287pt.
-
-[58
-
- <./fig/plots/scenario_7_chunk_count_fac_1/plots/GeneratedMeanCurrentSuperSeede
-rUploadBandwidth.csv-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <fig/plots/scenario_7_chunk_count_fac_1/plo
-ts/GeneratedMeanCurrentUploadBandwidth.csv.eps>
-(epstopdf)                    date: 2014-11-20 14:59:20
-(epstopdf)                    size: 74672 bytes
-(epstopdf)             Output file: <fig/plots/scenario_7_chunk_count_fac_1/plo
-ts/GeneratedMeanCurrentUploadBandwidth.csv-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-11-20 14:59:20
-(epstopdf)                    size: 18495 bytes
-(epstopdf)             Command: <repstopdf --outfile=fig/plots/scenario_7_chunk
-_count_fac_1/plots/GeneratedMeanCurrentUploadBandwidth.csv-eps-converted-to.pdf
- fig/plots/scenario_7_chunk_count_fac_1/plots/GeneratedMeanCurrentUploadBandwid
-th.csv.eps>
-(epstopdf)             \includegraphics on input line 189.
-Package epstopdf Info: Output file is already uptodate.
-
-<fig/plots/scenario_7_chunk_count_fac_1/plots/GeneratedMeanCurrentUploadBandwid
-th.csv-eps-converted-to.pdf, id=1918, 361.35pt x 252.945pt>
-File: fig/plots/scenario_7_chunk_count_fac_1/plots/GeneratedMeanCurrentUploadBa
-ndwidth.csv-eps-converted-to.pdf Graphic file (type pdf)
-
-<use fig/plots/scenario_7_chunk_count_fac_1/plots/GeneratedMeanCurrentUploadBan
-dwidth.csv-eps-converted-to.pdf>
-Package pdftex.def Info: fig/plots/scenario_7_chunk_count_fac_1/plots/Generated
-MeanCurrentUploadBandwidth.csv-eps-converted-to.pdf used on input line 189.
-(pdftex.def)             Requested size: 307.28987pt x 215.10461pt.
-File: fig/background_small.png Graphic file (type png)
- <use fig/background_small.png>
-Package pdftex.def Info: fig/background_small.png used on input line 189.
-(pdftex.def)             Requested size: 364.19536pt x 272.78287pt.
- [59
-
- <./fig/plots/scenario_7_chunk_count_fac_1/plots/GeneratedMeanCurrentUploadBand
-width.csv-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <fig/plots/scenario_7_chunk_count_fac_1/plo
-ts/GeneratedMeanCurrentDownloadBandwidth.csv.eps>
-(epstopdf)                    date: 2014-11-20 14:59:19
-(epstopdf)                    size: 75190 bytes
-(epstopdf)             Output file: <fig/plots/scenario_7_chunk_count_fac_1/plo
-ts/GeneratedMeanCurrentDownloadBandwidth.csv-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-11-20 14:59:19
-(epstopdf)                    size: 20145 bytes
-(epstopdf)             Command: <repstopdf --outfile=fig/plots/scenario_7_chunk
-_count_fac_1/plots/GeneratedMeanCurrentDownloadBandwidth.csv-eps-converted-to.p
-df fig/plots/scenario_7_chunk_count_fac_1/plots/GeneratedMeanCurrentDownloadBan
-dwidth.csv.eps>
-(epstopdf)             \includegraphics on input line 199.
-Package epstopdf Info: Output file is already uptodate.
-
-<fig/plots/scenario_7_chunk_count_fac_1/plots/GeneratedMeanCurrentDownloadBandw
-idth.csv-eps-converted-to.pdf, id=1951, 361.35pt x 252.945pt>
-File: fig/plots/scenario_7_chunk_count_fac_1/plots/GeneratedMeanCurrentDownload
-Bandwidth.csv-eps-converted-to.pdf Graphic file (type pdf)
-
-<use fig/plots/scenario_7_chunk_count_fac_1/plots/GeneratedMeanCurrentDownloadB
-andwidth.csv-eps-converted-to.pdf>
-Package pdftex.def Info: fig/plots/scenario_7_chunk_count_fac_1/plots/Generated
-MeanCurrentDownloadBandwidth.csv-eps-converted-to.pdf used on input line 199.
-(pdftex.def)             Requested size: 307.28987pt x 215.10461pt.
-File: fig/background_small.png Graphic file (type png)
- <use fig/background_small.png>
-Package pdftex.def Info: fig/background_small.png used on input line 199.
-(pdftex.def)             Requested size: 364.19536pt x 272.78287pt.
- [60
-
- <./fig/plots/scenario_7_chunk_count_fac_1/plots/GeneratedMeanCurrentDownloadBa
-ndwidth.csv-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <fig/plots/scenario_16_chunk_count_fac_8/pl
-ots/GeneratedMeanChunkCompletion.csv.eps>
-(epstopdf)                    date: 2014-11-20 14:59:18
-(epstopdf)                    size: 51641 bytes
-(epstopdf)             Output file: <fig/plots/scenario_16_chunk_count_fac_8/pl
-ots/GeneratedMeanChunkCompletion.csv-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-11-20 14:59:18
-(epstopdf)                    size: 14264 bytes
-(epstopdf)             Command: <repstopdf --outfile=fig/plots/scenario_16_chun
-k_count_fac_8/plots/GeneratedMeanChunkCompletion.csv-eps-converted-to.pdf fig/p
-lots/scenario_16_chunk_count_fac_8/plots/GeneratedMeanChunkCompletion.csv.eps>
-(epstopdf)             \includegraphics on input line 212.
-Package epstopdf Info: Output file is already uptodate.
-
-<fig/plots/scenario_16_chunk_count_fac_8/plots/GeneratedMeanChunkCompletion.csv
--eps-converted-to.pdf, id=1984, 361.35pt x 252.945pt>
-File: fig/plots/scenario_16_chunk_count_fac_8/plots/GeneratedMeanChunkCompletio
-n.csv-eps-converted-to.pdf Graphic file (type pdf)
-
-<use fig/plots/scenario_16_chunk_count_fac_8/plots/GeneratedMeanChunkCompletion
-.csv-eps-converted-to.pdf>
-Package pdftex.def Info: fig/plots/scenario_16_chunk_count_fac_8/plots/Generate
-dMeanChunkCompletion.csv-eps-converted-to.pdf used on input line 212.
-(pdftex.def)             Requested size: 307.28987pt x 215.10461pt.
-File: fig/background_small.png Graphic file (type png)
- <use fig/background_small.png>
-Package pdftex.def Info: fig/background_small.png used on input line 212.
-(pdftex.def)             Requested size: 364.19536pt x 272.78287pt.
- [61
-
- <./fig/plots/scenario_16_chunk_count_fac_8/plots/GeneratedMeanChunkCompletion.
-csv-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <fig/plots/scenario_16_chunk_count_fac_8/pl
-ots/GeneratedMeanCurrentSuperSeederUploadBandwidth.csv.eps>
-(epstopdf)                    date: 2014-11-20 14:59:18
-(epstopdf)                    size: 52388 bytes
-(epstopdf)             Output file: <fig/plots/scenario_16_chunk_count_fac_8/pl
-ots/GeneratedMeanCurrentSuperSeederUploadBandwidth.csv-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-11-20 14:59:18
-(epstopdf)                    size: 16154 bytes
-(epstopdf)             Command: <repstopdf --outfile=fig/plots/scenario_16_chun
-k_count_fac_8/plots/GeneratedMeanCurrentSuperSeederUploadBandwidth.csv-eps-conv
-erted-to.pdf fig/plots/scenario_16_chunk_count_fac_8/plots/GeneratedMeanCurrent
-SuperSeederUploadBandwidth.csv.eps>
-(epstopdf)             \includegraphics on input line 222.
-Package epstopdf Info: Output file is already uptodate.
-
-<fig/plots/scenario_16_chunk_count_fac_8/plots/GeneratedMeanCurrentSuperSeederU
-ploadBandwidth.csv-eps-converted-to.pdf, id=2019, 361.35pt x 252.945pt>
-File: fig/plots/scenario_16_chunk_count_fac_8/plots/GeneratedMeanCurrentSuperSe
-ederUploadBandwidth.csv-eps-converted-to.pdf Graphic file (type pdf)
-
-<use fig/plots/scenario_16_chunk_count_fac_8/plots/GeneratedMeanCurrentSuperSee
-derUploadBandwidth.csv-eps-converted-to.pdf>
-Package pdftex.def Info: fig/plots/scenario_16_chunk_count_fac_8/plots/Generate
-dMeanCurrentSuperSeederUploadBandwidth.csv-eps-converted-to.pdf used on input l
-ine 222.
-(pdftex.def)             Requested size: 307.28987pt x 215.10461pt.
-File: fig/background_small.png Graphic file (type png)
- <use fig/background_small.png>
-Package pdftex.def Info: fig/background_small.png used on input line 222.
-(pdftex.def)             Requested size: 364.19536pt x 272.78287pt.
-
-[62
-
- <./fig/plots/scenario_16_chunk_count_fac_8/plots/GeneratedMeanCurrentSuperSeed
-erUploadBandwidth.csv-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <fig/plots/scenario_16_chunk_count_fac_8/pl
-ots/GeneratedMeanCurrentUploadBandwidth.csv.eps>
-(epstopdf)                    date: 2014-11-20 14:59:18
-(epstopdf)                    size: 54236 bytes
-(epstopdf)             Output file: <fig/plots/scenario_16_chunk_count_fac_8/pl
-ots/GeneratedMeanCurrentUploadBandwidth.csv-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-11-20 14:59:18
-(epstopdf)                    size: 19189 bytes
-(epstopdf)             Command: <repstopdf --outfile=fig/plots/scenario_16_chun
-k_count_fac_8/plots/GeneratedMeanCurrentUploadBandwidth.csv-eps-converted-to.pd
-f fig/plots/scenario_16_chunk_count_fac_8/plots/GeneratedMeanCurrentUploadBandw
-idth.csv.eps>
-(epstopdf)             \includegraphics on input line 232.
-Package epstopdf Info: Output file is already uptodate.
-
-<fig/plots/scenario_16_chunk_count_fac_8/plots/GeneratedMeanCurrentUploadBandwi
-dth.csv-eps-converted-to.pdf, id=2052, 361.35pt x 252.945pt>
-File: fig/plots/scenario_16_chunk_count_fac_8/plots/GeneratedMeanCurrentUploadB
-andwidth.csv-eps-converted-to.pdf Graphic file (type pdf)
-
-<use fig/plots/scenario_16_chunk_count_fac_8/plots/GeneratedMeanCurrentUploadBa
-ndwidth.csv-eps-converted-to.pdf>
-Package pdftex.def Info: fig/plots/scenario_16_chunk_count_fac_8/plots/Generate
-dMeanCurrentUploadBandwidth.csv-eps-converted-to.pdf used on input line 232.
-(pdftex.def)             Requested size: 307.28987pt x 215.10461pt.
-File: fig/background_small.png Graphic file (type png)
- <use fig/background_small.png>
-Package pdftex.def Info: fig/background_small.png used on input line 232.
-(pdftex.def)             Requested size: 364.19536pt x 272.78287pt.
- [63
-
- <./fig/plots/scenario_16_chunk_count_fac_8/plots/GeneratedMeanCurrentUploadBan
-dwidth.csv-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <fig/plots/scenario_16_chunk_count_fac_8/pl
-ots/GeneratedMeanCurrentDownloadBandwidth.csv.eps>
-(epstopdf)                    date: 2014-11-20 14:59:18
-(epstopdf)                    size: 55176 bytes
-(epstopdf)             Output file: <fig/plots/scenario_16_chunk_count_fac_8/pl
-ots/GeneratedMeanCurrentDownloadBandwidth.csv-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-11-20 14:59:18
-(epstopdf)                    size: 20561 bytes
-(epstopdf)             Command: <repstopdf --outfile=fig/plots/scenario_16_chun
-k_count_fac_8/plots/GeneratedMeanCurrentDownloadBandwidth.csv-eps-converted-to.
-pdf fig/plots/scenario_16_chunk_count_fac_8/plots/GeneratedMeanCurrentDownloadB
-andwidth.csv.eps>
-(epstopdf)             \includegraphics on input line 242.
-Package epstopdf Info: Output file is already uptodate.
-
-<fig/plots/scenario_16_chunk_count_fac_8/plots/GeneratedMeanCurrentDownloadBand
-width.csv-eps-converted-to.pdf, id=2085, 361.35pt x 252.945pt>
-File: fig/plots/scenario_16_chunk_count_fac_8/plots/GeneratedMeanCurrentDownloa
-dBandwidth.csv-eps-converted-to.pdf Graphic file (type pdf)
-
-<use fig/plots/scenario_16_chunk_count_fac_8/plots/GeneratedMeanCurrentDownload
-Bandwidth.csv-eps-converted-to.pdf>
-Package pdftex.def Info: fig/plots/scenario_16_chunk_count_fac_8/plots/Generate
-dMeanCurrentDownloadBandwidth.csv-eps-converted-to.pdf used on input line 242.
-(pdftex.def)             Requested size: 307.28987pt x 215.10461pt.
-File: fig/background_small.png Graphic file (type png)
- <use fig/background_small.png>
-Package pdftex.def Info: fig/background_small.png used on input line 242.
-(pdftex.def)             Requested size: 364.19536pt x 272.78287pt.
- [64
-
- <./fig/plots/scenario_16_chunk_count_fac_8/plots/GeneratedMeanCurrentDownloadB
-andwidth.csv-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <fig/plots/scenario_17_chunk_count_fac_16/p
-lots/GeneratedMeanChunkCompletion.csv.eps>
-(epstopdf)                    date: 2014-11-20 14:59:18
-(epstopdf)                    size: 56606 bytes
-(epstopdf)             Output file: <fig/plots/scenario_17_chunk_count_fac_16/p
-lots/GeneratedMeanChunkCompletion.csv-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-11-20 14:59:18
-(epstopdf)                    size: 19766 bytes
-(epstopdf)             Command: <repstopdf --outfile=fig/plots/scenario_17_chun
-k_count_fac_16/plots/GeneratedMeanChunkCompletion.csv-eps-converted-to.pdf fig/
-plots/scenario_17_chunk_count_fac_16/plots/GeneratedMeanChunkCompletion.csv.eps
->
-(epstopdf)             \includegraphics on input line 256.
-Package epstopdf Info: Output file is already uptodate.
-
-<fig/plots/scenario_17_chunk_count_fac_16/plots/GeneratedMeanChunkCompletion.cs
-v-eps-converted-to.pdf, id=2118, 361.35pt x 252.945pt>
-File: fig/plots/scenario_17_chunk_count_fac_16/plots/GeneratedMeanChunkCompleti
-on.csv-eps-converted-to.pdf Graphic file (type pdf)
-
-<use fig/plots/scenario_17_chunk_count_fac_16/plots/GeneratedMeanChunkCompletio
-n.csv-eps-converted-to.pdf>
-Package pdftex.def Info: fig/plots/scenario_17_chunk_count_fac_16/plots/Generat
-edMeanChunkCompletion.csv-eps-converted-to.pdf used on input line 256.
-(pdftex.def)             Requested size: 307.28987pt x 215.10461pt.
-File: fig/background_small.png Graphic file (type png)
- <use fig/background_small.png>
-Package pdftex.def Info: fig/background_small.png used on input line 256.
-(pdftex.def)             Requested size: 364.19536pt x 272.78287pt.
- [65
-
- <./fig/plots/scenario_17_chunk_count_fac_16/plots/GeneratedMeanChunkCompletion
-.csv-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <fig/plots/scenario_17_chunk_count_fac_16/p
-lots/GeneratedMeanCurrentSuperSeederUploadBandwidth.csv.eps>
-(epstopdf)                    date: 2014-11-20 14:59:18
-(epstopdf)                    size: 58289 bytes
-(epstopdf)             Output file: <fig/plots/scenario_17_chunk_count_fac_16/p
-lots/GeneratedMeanCurrentSuperSeederUploadBandwidth.csv-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-11-20 14:59:18
-(epstopdf)                    size: 18647 bytes
-(epstopdf)             Command: <repstopdf --outfile=fig/plots/scenario_17_chun
-k_count_fac_16/plots/GeneratedMeanCurrentSuperSeederUploadBandwidth.csv-eps-con
-verted-to.pdf fig/plots/scenario_17_chunk_count_fac_16/plots/GeneratedMeanCurre
-ntSuperSeederUploadBandwidth.csv.eps>
-(epstopdf)             \includegraphics on input line 266.
-Package epstopdf Info: Output file is already uptodate.
-
-<fig/plots/scenario_17_chunk_count_fac_16/plots/GeneratedMeanCurrentSuperSeeder
-UploadBandwidth.csv-eps-converted-to.pdf, id=2152, 361.35pt x 252.945pt>
-File: fig/plots/scenario_17_chunk_count_fac_16/plots/GeneratedMeanCurrentSuperS
-eederUploadBandwidth.csv-eps-converted-to.pdf Graphic file (type pdf)
-
-<use fig/plots/scenario_17_chunk_count_fac_16/plots/GeneratedMeanCurrentSuperSe
-ederUploadBandwidth.csv-eps-converted-to.pdf>
-Package pdftex.def Info: fig/plots/scenario_17_chunk_count_fac_16/plots/Generat
-edMeanCurrentSuperSeederUploadBandwidth.csv-eps-converted-to.pdf used on input 
-line 266.
-(pdftex.def)             Requested size: 307.28987pt x 215.10461pt.
-File: fig/background_small.png Graphic file (type png)
- <use fig/background_small.png>
-Package pdftex.def Info: fig/background_small.png used on input line 266.
-(pdftex.def)             Requested size: 364.19536pt x 272.78287pt.
-
-[66
-
- <./fig/plots/scenario_17_chunk_count_fac_16/plots/GeneratedMeanCurrentSuperSee
-derUploadBandwidth.csv-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <fig/plots/scenario_17_chunk_count_fac_16/p
-lots/GeneratedMeanCurrentUploadBandwidth.csv.eps>
-(epstopdf)                    date: 2014-11-20 14:59:18
-(epstopdf)                    size: 59643 bytes
-(epstopdf)             Output file: <fig/plots/scenario_17_chunk_count_fac_16/p
-lots/GeneratedMeanCurrentUploadBandwidth.csv-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-11-20 14:59:18
-(epstopdf)                    size: 22816 bytes
-(epstopdf)             Command: <repstopdf --outfile=fig/plots/scenario_17_chun
-k_count_fac_16/plots/GeneratedMeanCurrentUploadBandwidth.csv-eps-converted-to.p
-df fig/plots/scenario_17_chunk_count_fac_16/plots/GeneratedMeanCurrentUploadBan
-dwidth.csv.eps>
-(epstopdf)             \includegraphics on input line 276.
-Package epstopdf Info: Output file is already uptodate.
-
-<fig/plots/scenario_17_chunk_count_fac_16/plots/GeneratedMeanCurrentUploadBandw
-idth.csv-eps-converted-to.pdf, id=2185, 361.35pt x 252.945pt>
-File: fig/plots/scenario_17_chunk_count_fac_16/plots/GeneratedMeanCurrentUpload
-Bandwidth.csv-eps-converted-to.pdf Graphic file (type pdf)
-
-<use fig/plots/scenario_17_chunk_count_fac_16/plots/GeneratedMeanCurrentUploadB
-andwidth.csv-eps-converted-to.pdf>
-Package pdftex.def Info: fig/plots/scenario_17_chunk_count_fac_16/plots/Generat
-edMeanCurrentUploadBandwidth.csv-eps-converted-to.pdf used on input line 276.
-(pdftex.def)             Requested size: 307.28987pt x 215.10461pt.
-File: fig/background_small.png Graphic file (type png)
- <use fig/background_small.png>
-Package pdftex.def Info: fig/background_small.png used on input line 276.
-(pdftex.def)             Requested size: 364.19536pt x 272.78287pt.
- [67
-
- <./fig/plots/scenario_17_chunk_count_fac_16/plots/GeneratedMeanCurrentUploadBa
-ndwidth.csv-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <fig/plots/scenario_17_chunk_count_fac_16/p
-lots/GeneratedMeanCurrentDownloadBandwidth.csv.eps>
-(epstopdf)                    date: 2014-11-20 14:59:18
-(epstopdf)                    size: 60317 bytes
-(epstopdf)             Output file: <fig/plots/scenario_17_chunk_count_fac_16/p
-lots/GeneratedMeanCurrentDownloadBandwidth.csv-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-11-20 14:59:18
-(epstopdf)                    size: 23576 bytes
-(epstopdf)             Command: <repstopdf --outfile=fig/plots/scenario_17_chun
-k_count_fac_16/plots/GeneratedMeanCurrentDownloadBandwidth.csv-eps-converted-to
-.pdf fig/plots/scenario_17_chunk_count_fac_16/plots/GeneratedMeanCurrentDownloa
-dBandwidth.csv.eps>
-(epstopdf)             \includegraphics on input line 286.
-Package epstopdf Info: Output file is already uptodate.
-
-<fig/plots/scenario_17_chunk_count_fac_16/plots/GeneratedMeanCurrentDownloadBan
-dwidth.csv-eps-converted-to.pdf, id=2218, 361.35pt x 252.945pt>
-File: fig/plots/scenario_17_chunk_count_fac_16/plots/GeneratedMeanCurrentDownlo
-adBandwidth.csv-eps-converted-to.pdf Graphic file (type pdf)
-
-<use fig/plots/scenario_17_chunk_count_fac_16/plots/GeneratedMeanCurrentDownloa
-dBandwidth.csv-eps-converted-to.pdf>
-Package pdftex.def Info: fig/plots/scenario_17_chunk_count_fac_16/plots/Generat
-edMeanCurrentDownloadBandwidth.csv-eps-converted-to.pdf used on input line 286.
-
-(pdftex.def)             Requested size: 307.28987pt x 215.10461pt.
-File: fig/background_small.png Graphic file (type png)
- <use fig/background_small.png>
-Package pdftex.def Info: fig/background_small.png used on input line 286.
-(pdftex.def)             Requested size: 364.19536pt x 272.78287pt.
- [68
-
- <./fig/plots/scenario_17_chunk_count_fac_16/plots/GeneratedMeanCurrentDownload
-Bandwidth.csv-eps-converted-to.pdf>])
+])
 \tf@nav=\write6
 \openout6 = `master.nav'.
 
@@ -3016,39 +2140,38 @@ Bandwidth.csv-eps-converted-to.pdf>])
 \tf@snm=\write8
 \openout8 = `master.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 85.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 85.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 74.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 74.
  (./master.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 85.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 85.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 74.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 74.
 Package rerunfilecheck Info: File `master.out' has not changed.
-(rerunfilecheck)             Checksum: A716FFD2E3F38C2C985E47802B0DA2A4;702.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 85.
+(rerunfilecheck)             Checksum: CDEFEB4B35FC83F5D8BE6AB980DD156E;222.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 74.
  ) 
 Here is how much of TeX's memory you used:
- 18307 strings out of 493117
- 357560 string characters out of 6135432
- 413169 words of memory out of 5000000
- 21152 multiletter control sequences out of 15000+600000
- 31880 words of font info for 48 fonts, out of 8000000 for 9000
+ 18717 strings out of 493117
+ 357043 string characters out of 6135432
+ 424968 words of memory out of 5000000
+ 21592 multiletter control sequences out of 15000+600000
+ 40390 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,14n,55p,396b,559s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,13n,59p,386b,710s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/tex
-live/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texli
-ve/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/local/texlive
-/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2
+live/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/local/texli
+ve/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive
+/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2
 014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/201
 4/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2014/
-texmf-dist/fonts/type1/public/amsfonts/symbols/msam5.pfb></usr/local/texlive/20
-14/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb></usr/local/texlive
-/2014/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/tex
-live/2014/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/20
-14/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on master.pdf (68 pages, 1367946 bytes).
+texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2
+014/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2014/tex
+mf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2014/texmf-dist
+/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on master.pdf (44 pages, 960049 bytes).
 PDF statistics:
- 2324 PDF objects out of 2487 (max. 8388607)
- 2114 compressed objects within 22 object streams
- 150 named destinations out of 1000 (max. 500000)
- 407 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 619 PDF objects out of 1000 (max. 8388607)
+ 494 compressed objects within 5 object streams
+ 94 named destinations out of 1000 (max. 500000)
+ 228 words of extra memory for PDF output out of 10000 (max. 10000000)
 

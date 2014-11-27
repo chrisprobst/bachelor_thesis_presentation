@@ -1,0 +1,37 @@
+\section{Einleitung}
+
+\begin{frame}
+  \frametitle{Motivation}  
+  \begin{itemize}
+    \item Problem: Datenverbreitung mit Client\,/\,Server Architektur skaliert nicht
+    \vspace{1mm}
+    \begin{itemize}
+      \item Jeder Client erhöht die Auslastung
+      \item Uploadbandbreite des Servers ist limitiert        
+      \item Uploadbandbreite der Clients ungenutzt
+    \end{itemize}
+
+    \vspace{2mm}
+
+    \item Lösungsansatz: Verwendung eines Peer-to-Peer Netzwerks
+    \vspace{1mm}
+    \begin{itemize}
+      \item Jeder Peer hilft bei der Datenverbreitung
+      \item Der Super-Peer (Peer mit vollständigem Datensatz) wird nicht stärker ausgelastet als andere Peers
+      \item Ein Super-Peer mit geringer Uploadbandbreite kann dennoch schnell Daten verbreiten
+    \end{itemize}    
+  \end{itemize}
+\end{frame}
+
+
+\begin{frame}
+  \frametitle{Zielsetzung}
+    Implementierung einer Peer-to-Peer Anwendung zur termingerechten Verbreitung von Daten:
+    \vspace{1mm}
+    \begin{itemize}
+      \item Uploadbandbreite der Peers effizient nutzen
+      \item Zeitpunkt für den Erhalt der Daten bei allen Peers gleich
+      \item Gesamtdauer unabhängig von der Anzahl der Peers
+      \item Gesamtdauer kleiner als $2 * T_0$.
+    \end{itemize}
+\end{frame}
