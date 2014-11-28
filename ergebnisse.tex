@@ -4,8 +4,11 @@
   \frametitle{Methodik}
   \begin{itemize}  
   	\item Verschiedene Szenarios
+  	\vspace{1mm}
     \item Ein Default-Szenario: Übrige Szenarios sind Abwandlungen
+    \vspace{1mm}
     \item Jedes Szenario läuft 10 mal
+    \vspace{1mm}
     \item Plots: Durchschnitt und Konfidenzintervall (Konfidenzniveau 95\%)
   \end{itemize}	
 \end{frame}
@@ -35,8 +38,11 @@
   \begin{block}{Einstellungen}
 	  \begin{itemize}  
 	    \item 1 Super-Peer und 63 Peers
+	    \vspace{2mm}
 	    \item Doppelt so viele Chunks wie Peers (126 Chunks)
+	    \vspace{2mm}
 	    \item Gleiche Uploadbandbreite für Super-Peer und Peers
+	    \vspace{2mm}
 	    \item Datengröße so gewählt, dass $T_0=10$ Minuten gilt 
 	  \end{itemize}		
   \end{block}
@@ -74,90 +80,38 @@
   \end{center}
 \end{frame}
 
-
 %%%
 %%% SCENARIO 128
 %%%
 
 \begin{frame}
-  \frametitle{Ergebnisse - Default Szenario mit 128 Peers}
-  Completion Graph:
-  
+  \frametitle{Default Szenario mit 128 Peers - Completion}
+  \begin{itemize}  
+    \item Links: Ablauf des Datentransfers
+    \item Rechts: Peers absteigend sortiert nach Gesamtdauer
+  \end{itemize}
+
   \begin{center}
-    \includegraphics[width=1\textwidth]{fig/plots/scenario_4_peer_count_128/plots/GeneratedMeanChunkCompletion.csv.eps}
+    \includegraphics[width=0.49\textwidth]{fig/plots/scenario_4_peer_count_128/plots/GeneratedMeanChunkCompletion.csv.eps}
+    \hfill
+    \includegraphics[width=0.49\textwidth]{fig/plots/scenario_4_peer_count_128/plots/GeneratedMeanSortedChunkCompletion.csv.eps}
   \end{center}
 \end{frame}
 
 
 \begin{frame}
-  \frametitle{Ergebnisse - Default Szenario mit 128 Peers}
-  Super-Peer Upload Bandwidth:
-  
+  \frametitle{Default Szenario mit 128 Peers - Upload/Download}
   \begin{center}
-    \includegraphics[width=1\textwidth]{fig/plots/scenario_4_peer_count_128/plots/GeneratedMeanCurrentSuperSeederUploadBandwidth.csv.eps}
+    \includegraphics[width=0.49\textwidth]{fig/plots/scenario_4_peer_count_128/plots/GeneratedMeanCurrentUploadBandwidth.csv.eps}
+    \includegraphics[width=0.49\textwidth]{fig/plots/scenario_4_peer_count_128/plots/GeneratedMeanCurrentDownloadBandwidth.csv.eps}
   \end{center}
 \end{frame}
 
 
 \begin{frame}
-  \frametitle{Ergebnisse - Default Szenario mit 128 Peers}
-  Peer Upload Bandwidth:
-  
+  \frametitle{Default Szenario mit 128 Peers - Super-Peer Upload}
   \begin{center}
-    \includegraphics[width=1\textwidth]{fig/plots/scenario_4_peer_count_128/plots/GeneratedMeanCurrentUploadBandwidth.csv.eps}
-  \end{center}
-\end{frame}
-
-
-\begin{frame}
-  \frametitle{Ergebnisse - Default Szenario mit 128 Peers}
-  Peer Download Bandwidth:
-  
-  \begin{center}
-    \includegraphics[width=1\textwidth]{fig/plots/scenario_4_peer_count_128/plots/GeneratedMeanCurrentDownloadBandwidth.csv.eps}
-  \end{center}
-\end{frame}
-
-%%%
-%%% SCENARIO 192
-%%%
-
-\begin{frame}
-  \frametitle{Ergebnisse - Default Szenario mit 192 Peers}
-  Completion Graph:
-  
-  \begin{center}
-    \includegraphics[width=1\textwidth]{fig/plots/scenario_11_peer_count_192_v2/plots/GeneratedMeanChunkCompletion.csv.eps}
-  \end{center}
-\end{frame}
-
-
-\begin{frame}
-  \frametitle{Ergebnisse - Default Szenario mit 192 Peers}
-  Super-Peer Upload Bandwidth:
-  
-  \begin{center}
-    \includegraphics[width=1\textwidth]{fig/plots/scenario_11_peer_count_192_v2/plots/GeneratedMeanCurrentSuperSeederUploadBandwidth.csv.eps}
-  \end{center}
-\end{frame}
-
-
-\begin{frame}
-  \frametitle{Ergebnisse - Default Szenario mit 192 Peers}
-  Peer Upload Bandwidth:
-  
-  \begin{center}
-    \includegraphics[width=1\textwidth]{fig/plots/scenario_11_peer_count_192_v2/plots/GeneratedMeanCurrentUploadBandwidth.csv.eps}
-  \end{center}
-\end{frame}
-
-
-\begin{frame}
-  \frametitle{Ergebnisse - Default Szenario mit 192 Peers}
-  Peer Download Bandwidth:
-  
-  \begin{center}
-    \includegraphics[width=1\textwidth]{fig/plots/scenario_11_peer_count_192_v2/plots/GeneratedMeanCurrentDownloadBandwidth.csv.eps}
+    \includegraphics[width=0.49\textwidth]{fig/plots/scenario_4_peer_count_128/plots/GeneratedMeanCurrentSuperSeederUploadBandwidth.csv.eps}
   \end{center}
 \end{frame}
 
@@ -166,44 +120,35 @@
 %%%
 
 \begin{frame}
-  \frametitle{Ergebnisse - Default Szenario mit 4x Chunkanzahl}
-  Completion Graph:
-  
+  \frametitle{Default Szenario mit 4x Chunkanzahl - Completion}
+  \begin{itemize}  
+    \item Links: Ablauf des Datentransfers
+    \item Rechts: Peers absteigend sortiert nach Gesamtdauer
+  \end{itemize}
+
   \begin{center}
-    \includegraphics[width=1\textwidth]{fig/plots/scenario_15_chunk_count_fac_4/plots/GeneratedMeanChunkCompletion.csv.eps}
+    \includegraphics[width=0.49\textwidth]{fig/plots/scenario_15_chunk_count_fac_4/plots/GeneratedMeanChunkCompletion.csv.eps}
+    \hfill
+    \includegraphics[width=0.49\textwidth]{fig/plots/scenario_15_chunk_count_fac_4/plots/GeneratedMeanSortedChunkCompletion.csv.eps}
   \end{center}
 \end{frame}
 
 
 \begin{frame}
-  \frametitle{Ergebnisse - Default Szenario mit 4x Chunkanzahl}
-  Super-Peer Upload Bandwidth:
-  
+  \frametitle{Default Szenario mit 4x Chunkanzahl - Upload/Download}
   \begin{center}
-    \includegraphics[width=1\textwidth]{fig/plots/scenario_15_chunk_count_fac_4/plots/GeneratedMeanCurrentSuperSeederUploadBandwidth.csv.eps}
+    \includegraphics[width=0.49\textwidth]{fig/plots/scenario_15_chunk_count_fac_4/plots/GeneratedMeanCurrentUploadBandwidth.csv.eps}
+    \includegraphics[width=0.49\textwidth]{fig/plots/scenario_15_chunk_count_fac_4/plots/GeneratedMeanCurrentDownloadBandwidth.csv.eps}
   \end{center}
 \end{frame}
 
 
 \begin{frame}
-  \frametitle{Ergebnisse - Default Szenario mit 4x Chunkanzahl}
-  Peer Upload Bandwidth:
-  
+  \frametitle{Default Szenario mit 4x Chunkanzahl - Super-Peer Upload}
   \begin{center}
-    \includegraphics[width=1\textwidth]{fig/plots/scenario_15_chunk_count_fac_4/plots/GeneratedMeanCurrentUploadBandwidth.csv.eps}
+    \includegraphics[width=0.49\textwidth]{fig/plots/scenario_15_chunk_count_fac_4/plots/GeneratedMeanCurrentSuperSeederUploadBandwidth.csv.eps}
   \end{center}
 \end{frame}
-
-
-\begin{frame}
-  \frametitle{Ergebnisse - Default Szenario mit 4x Chunkanzahl}
-  Peer Download Bandwidth:
-  
-  \begin{center}
-    \includegraphics[width=1\textwidth]{fig/plots/scenario_15_chunk_count_fac_4/plots/GeneratedMeanCurrentDownloadBandwidth.csv.eps}
-  \end{center}
-\end{frame}
-
 
 
 %%%
@@ -211,101 +156,48 @@
 %%%
 
 \begin{frame}
-  \frametitle{Ergebnisse - Default Szenario mit 20 Datensätzen (Stream)}
-  Bislang gab es immer nur einen Datensatz, der verteilt wurde. Nun wird der gesamte Datensatz in 20 weitere Sub-Datensätze geteilt.
+  \frametitle{Default Szenario mit 20 Datensätzen}
+  \begin{block}{Einstellungen}
+	  \begin{itemize}  
+	    \item Gesamter Datensatz wird in 20 Sub-Datensätze geteilt
+	    \vspace{2mm}
+	    \item Jeder Sub-Datensatz hat doppelt soviele Chunks wie Peers
+	    \vspace{2mm}
+	    \item Sub-Datensätze durchnummeriert mit IDs: Kleine IDs zuerst
+	    \vspace{2mm}
+	    \item Streaming!
+	  \end{itemize}		
+  \end{block}
+\end{frame}
 
+\begin{frame}
+  \frametitle{Default Szenario mit 20 Datensätzen - Completion}
   \begin{itemize}  
-    \item Jeder Sub-Datensatz hat wieder doppelt soviele Chunks wie Peers.
-    \item Die Sub-Datensätze sind durchnummeriert mit IDs.
-    \item Sub-Datensätze mit kleiner ID haben Vorrang.
-    \item Streaming!
-  \end{itemize}	
-\end{frame}
-
-
-\begin{frame}
-  \frametitle{Ergebnisse - Default Szenario mit 20 Datensätzen (Stream)}
-  Completion Graph:
-  
-  \begin{center}
-    \includegraphics[width=1\textwidth]{fig/plots/scenario_6_parts_20/plots/GeneratedMeanChunkCompletion.csv.eps}
-  \end{center}
-\end{frame}
-
-
-\begin{frame}
-  \frametitle{Ergebnisse - Default Szenario mit 20 Datensätzen (Stream)}
-  Super-Peer Upload Bandwidth:
-  
-  \begin{center}
-    \includegraphics[width=1\textwidth]{fig/plots/scenario_6_parts_20/plots/GeneratedMeanCurrentSuperSeederUploadBandwidth.csv.eps}
-  \end{center}
-\end{frame}
-
-
-\begin{frame}
-  \frametitle{Ergebnisse - Default Szenario mit 20 Datensätzen (Stream)}
-  Peer Upload Bandwidth:
-  
-  \begin{center}
-    \includegraphics[width=1\textwidth]{fig/plots/scenario_6_parts_20/plots/GeneratedMeanCurrentUploadBandwidth.csv.eps}
-  \end{center}
-\end{frame}
-
-
-\begin{frame}
-  \frametitle{Ergebnisse - Default Szenario mit 20 Datensätzen (Stream)}
-  Peer Download Bandwidth:
-  
-  \begin{center}
-    \includegraphics[width=1\textwidth]{fig/plots/scenario_6_parts_20/plots/GeneratedMeanCurrentDownloadBandwidth.csv.eps}
-  \end{center}
-\end{frame}
-
-
-
-
-
-%%%
-%%% SCENARIO Seq
-%%%
-
-\begin{frame}
-  \frametitle{Ergebnisse - Szenario Sequential}
-  Dieses Szenario implementiert zum Vergleich ein Client\,/\,Server System:
-
-  \begin{itemize}  
-    \item Es gibt einen Super-Peer (Server) und 63 Peers (Clienten).
-    \item Die Peers sind nicht untereinander verbunden.
-    \item Anzahl der Chunks spielt hier keine Rolle.    
-    \item Datengröße so gewählt, dass $T_0=10$ Minuten gilt.
+    \item Links: Ablauf des Datentransfers
+    \item Rechts: Peers absteigend sortiert nach Gesamtdauer
   \end{itemize}
-\end{frame}
 
-\begin{frame}
-  \frametitle{Ergebnisse - Szenario Sequential}
-  Completion Graph:
-  
   \begin{center}
-    \includegraphics[width=1\textwidth]{fig/plots/scenario_2_seq/plots/GeneratedMeanChunkCompletion.csv.eps}
+    \includegraphics[width=0.49\textwidth]{fig/plots/scenario_6_parts_20/plots/GeneratedMeanChunkCompletion.csv.eps}
+    \hfill
+    \includegraphics[width=0.49\textwidth]{fig/plots/scenario_6_parts_20/plots/GeneratedMeanSortedChunkCompletion.csv.eps}
   \end{center}
 \end{frame}
 
+
 \begin{frame}
-  \frametitle{Ergebnisse - Szenario Sequential}
-  Super-Peer Upload Bandwidth:
-  
+  \frametitle{Default Szenario mit 20 Datensätzen - Upload/Download}
   \begin{center}
-    \includegraphics[width=1\textwidth]{fig/plots/scenario_2_seq/plots/GeneratedMeanCurrentSuperSeederUploadBandwidth.csv.eps}
+    \includegraphics[width=0.49\textwidth]{fig/plots/scenario_6_parts_20/plots/GeneratedMeanCurrentUploadBandwidth.csv.eps}
+    \includegraphics[width=0.49\textwidth]{fig/plots/scenario_6_parts_20/plots/GeneratedMeanCurrentDownloadBandwidth.csv.eps}
   \end{center}
 \end{frame}
 
+
 \begin{frame}
-  \frametitle{Ergebnisse - Szenario Sequential}
-  Peer Download Bandwidth:
-  
+  \frametitle{Default Szenario mit 20 Datensätzen - Super-Peer Upload}
   \begin{center}
-    \includegraphics[width=1\textwidth]{fig/plots/scenario_2_seq/plots/GeneratedMeanCurrentDownloadBandwidth.csv.eps}
+    \includegraphics[width=0.49\textwidth]{fig/plots/scenario_6_parts_20/plots/GeneratedMeanCurrentSuperSeederUploadBandwidth.csv.eps}
   \end{center}
 \end{frame}
 
@@ -315,14 +207,19 @@
 %%%
 
 \begin{frame}
-  \frametitle{Evaluation - Fazit}
-  \setbeamertemplate{itemize items}[circle]
-  \begin{itemize}
-	  \item Mit Hilfe des Chunked-Swarm Verfahren kann man im Idealfall Lieferfristen weit unter $2*T_0$ garantieren, unabhängig von der Anzahl der Peers.
-	  \item Die Anzahl der Peers sollte bekannt sein, um eine passende Anzahl an Chunks zu wählen.
-	  \item Das System skaliert nicht endlos, da die Anzahl der Verbindungen quadratisch wächst.
-	  \item Mit Hilfe von Sub-Datensätzen kann Streaming implementiert werden.
-  \end{itemize}
+  \frametitle{Fazit}
+  
+  \begin{block}{Einstellungen}
+	  \begin{itemize}  
+	    \item Gesamtdauer für Chunked-Swarm liegt unter $2*T_0$
+	    \vspace{2mm}
+	    \item Anzahl der Peers muss bekannt sein
+	    \vspace{2mm}
+	    \item Anzahl an Verbindungen wächst quadratisch: Skaliert nicht endlos
+	    \vspace{2mm}
+	    \item Einteilung in Sub-Datensätze ermöglicht Streaming
+	  \end{itemize}		
+  \end{block}
 \end{frame}
 
 %%%
@@ -331,10 +228,11 @@
 
 \begin{frame}
   \frametitle{Future Work}
-  \setbeamertemplate{itemize items}[circle]
   \begin{itemize}
-	  \item Einführung einer Simulationszeit, damit bei vielen Peers und sehr hoher CPU Auslastung die Messungen nicht beeinflusst werden.
-	  \item Implementierung auf Basis eines Push-Based Ansatzes. Es gäbe keine Notwendigkeit mehr für Announcements.
-	  \item Verwendung einer hierarchischen Struktur, um das Problem der quadratisch wachsenden Anzahl an Verbindungen zu verringern.
-  \end{itemize}
+	  \item Simulationszeit: Hohe CPU Auslastung soll Messung nicht beeinflussen
+	  \vspace{1mm}
+	  \item Push-Based: Announcements wären nicht mehr nötig
+	  \vspace{1mm}
+	  \item Hierarchische Struktur: Verhindert quadratisches Wachstum an Verbindungen
+  \end{itemize}		
 \end{frame}

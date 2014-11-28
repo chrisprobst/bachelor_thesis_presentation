@@ -3,4 +3,5 @@
 \beamer@sectionintoc {1}{Einleitung}{3}{0}{1}
 \beamer@sectionintoc {2}{Umsetzung}{6}{0}{2}
 \beamer@sectionintoc {3}{Evaluation}{13}{0}{3}
-\beamer@sectionintoc {4}{Anhang}{43}{1}{4}
+\beamer@sectionintoc {4}{Demo}{32}{0}{4}
+\beamer@sectionintoc {5}{Anhang}{34}{1}{5}
