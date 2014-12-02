@@ -2,7 +2,7 @@
 \select@language {ngerman}
 \beamer@sectionintoc {1}{Einleitung}{3}{0}{1}
 \beamer@sectionintoc {2}{Umsetzung}{6}{0}{2}
-\beamer@sectionintoc {3}{Evaluation}{13}{0}{3}
-\beamer@sectionintoc {4}{Fazit}{30}{0}{4}
-\beamer@sectionintoc {5}{Demo}{33}{0}{5}
-\beamer@sectionintoc {6}{Anhang}{35}{1}{6}
+\beamer@sectionintoc {3}{Evaluation}{12}{0}{3}
+\beamer@sectionintoc {4}{Fazit}{29}{0}{4}
+\beamer@sectionintoc {5}{Demo}{32}{0}{5}
+\beamer@sectionintoc {6}{Anhang}{34}{1}{6}
