@@ -2,6 +2,24 @@
 
 \begin{frame}
   \frametitle{Demo}  
-  \center
-  Live-Demo: Video-Streaming!
+
+  Live-Demo: Video-Streaming! (Erfordert Java 8)
+
+  \begin{exampleblock}{Leecher Binary}
+      \begin{itemize}  
+		  \item Source: http://goo.gl/m3YoD5
+		  \vspace{1mm}
+		  \item Config: -at ChunkedSwarm -dd <db path> -ds -sp <local port> -sh <local hostname> -u <upload bandwidth> -hn <hostname> -hp <hostport> -htp <http webserver port>
+      \end{itemize}
+  \end{exampleblock}
+
+  \vspace{2mm}
+
+  \begin{exampleblock}{Seeder Binary}
+      \begin{itemize}  
+		  \item Source: http://goo.gl/JFv8L5
+		  \vspace{1mm}
+		  \item Config: -at SuperSeederChunkedSwarm -dd <db path> -df <movie file> -sp <local port> -sh <local hostname> -su <upload bandwidth> -p <parts> -cc <chunks>
+      \end{itemize}
+  \end{exampleblock}
 \end{frame}
